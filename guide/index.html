@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en" data-theme="light" data-font-size="sm">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pima Ballot Guide</title>
+<meta name="description" content="A nonpartisan guide to every race and proposition on the Nov 3, 2026 Pima County ballot (LD17, CD6): records, both sides, and side-by-side match scores.">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('pref-theme'),f=localStorage.getItem('pref-font-size');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(f&&/^(sm|md|lg|xl)$/.test(f))d.setAttribute('data-font-size',f);}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="/assets/guide.css">
+<link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="nav-row">
+    <a class="brand" href="/guide/"><span class="brand-mark" aria-hidden="true">B</span><span class="brand-text"><strong>Pima Ballot Guide</strong><span>General Election · Nov 3, 2026</span></span></a>
+    <nav class="nav-links" aria-label="Guide sections">
+      <a href="/">Ask the engine</a>
+      <a href="#races">Races</a>
+      <a href="#compare">Compare</a>
+      <a href="#props">Propositions</a>
+      <a href="#judges">Judges</a>
+      <a href="#vote">How to vote</a>
+      <a href="#mail">Mail check</a>
+      <a href="#method">Method</a>
+    </nav>
+    <div class="prefs">
+      <div class="size-group" role="group" aria-label="Text size">
+        <button type="button" class="size-btn" data-font-choice="sm" aria-pressed="true"><span aria-hidden="true">A</span></button>
+        <button type="button" class="size-btn" data-font-choice="md" aria-pressed="false"><span aria-hidden="true">A</span></button>
+        <button type="button" class="size-btn" data-font-choice="lg" aria-pressed="false"><span aria-hidden="true">A</span></button>
+        <button type="button" class="size-btn" data-font-choice="xl" aria-pressed="false"><span aria-hidden="true">A</span></button>
+      </div>
+      <button type="button" class="theme-btn" data-theme-toggle aria-pressed="false" aria-label="Switch to dark theme">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="currentColor"/></svg>
+        <span data-theme-label>Dark</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <p class="kicker">Pima County · Legislative District 17 · Congressional District 6</p>
+      <h1>Your ballot, explained without the spin.</h1>
+      <p class="lede">Every race and proposition on the Nov 3, 2026 ballot: what each candidate has actually done, what supporters and critics point to, and a side-by-side comparison scored against your own priorities. No endorsements.</p>
+      <ul class="dates" aria-label="Key dates">
+        <li><strong>Oct 27</strong><span>Last day to mail your ballot</span></li>
+        <li><strong>Oct 30</strong><span>Last regular early-voting day</span></li>
+        <li><strong>Nov 3</strong><span>Election Day, 6 a.m. to 7 p.m.</span></li>
+      </ul>
+      <div class="hero-cta"><a class="btn" href="#compare">Compare candidates</a><a class="btn ghost" href="/">Ask the engine</a></div>
+    </div>
+  </section>
+
+  <section id="races" class="band" aria-labelledby="races-h">
+    <div class="wrap">
+      <h2 id="races-h">The races</h2>
+      <p class="section-lede">Listed in ballot order. Open a candidate to see their record, both sides, and sources.</p>
+      <div id="race-list" class="race-list"><p class="loading">Loading the ballot…</p></div>
+    </div>
+  </section>
+
+  <section id="compare" class="band alt" aria-labelledby="compare-h">
+    <div class="wrap">
+      <h2 id="compare-h">Compare side by side</h2>
+      <p class="section-lede">Pick a race, then mark where you stand. Each candidate's score is the share of statements where their documented position matches yours. Statements with no documented position are left out, and the count is shown.</p>
+      <div class="compare-controls">
+        <label for="race-select">Race</label>
+        <select id="race-select"></select>
+      </div>
+      <form id="quiz" class="quiz" aria-label="Where you stand"></form>
+      <div id="compare-out" class="compare-out" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section id="props" class="band" aria-labelledby="props-h">
+    <div class="wrap">
+      <h2 id="props-h">Propositions</h2>
+      <p class="section-lede">What a YES and a NO vote actually do, in the official ballot language, plus the case each side makes.</p>
+      <div id="prop-list" class="prop-grid"></div>
+      <p id="other-pima" class="aside"></p>
+    </div>
+  </section>
+
+  <section id="judges" class="band alt" aria-labelledby="judges-h">
+    <div class="wrap"><h2 id="judges-h">Judges</h2><div id="judges-body"></div></div>
+  </section>
+
+  <section id="vote" class="band" aria-labelledby="vote-h">
+    <div class="wrap"><h2 id="vote-h">How and when to vote</h2><div id="vote-body"></div></div>
+  </section>
+
+  <section id="mail" class="band alt" aria-labelledby="mail-h">
+    <div class="wrap"><h2 id="mail-h">Checking the campaign mail</h2><div id="mail-body"></div></div>
+  </section>
+
+  <section id="method" class="band" aria-labelledby="method-h">
+    <div class="wrap"><h2 id="method-h">Method and sources</h2><div id="method-body"></div><h3>All sources</h3><ol id="source-list" class="source-list"></ol></div>
+  </section>
+</main>
+<footer class="foot"><div class="wrap"><p id="disclaimer"></p><p><a href="/">Ask the Ballot Brain engine</a></p></div></footer>
+<script src="/assets/prefs.js" defer></script>
+<script src="/assets/guide.js" defer></script>
+</body>
+</html>

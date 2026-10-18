@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en" data-theme="dark" data-font-size="sm">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ballot Brain AZ</title>
+<meta name="description" content="Ask about every candidate and proposition on the 2026 Pima County ballot. Nonpartisan, sourced, and scored against your own priorities.">
+<meta name="color-scheme" content="dark light">
+<script>(function(){try{var d=document.documentElement,t=localStorage.getItem('pref-theme'),f=localStorage.getItem('pref-font-size');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);if(f&&/^(sm|md|lg|xl)$/.test(f))d.setAttribute('data-font-size',f);}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="/assets/engine.css">
+<link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip" href="#chat-input">Skip to the question box</a>
+<div class="glow" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="nav-row">
+    <a class="brand" href="/" aria-label="Ballot Brain AZ home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 11h14v9a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 11V5h6v6M10.5 8h3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </span>
+      <span class="brand-text"><strong>Ballot Brain</strong><span>Pima County · Nov 3, 2026</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="/" aria-current="page">Ask</a>
+      <a href="/guide/">Guide</a>
+      <a href="/guide/#compare">Compare</a>
+      <a href="/guide/#props">Propositions</a>
+      <a href="/guide/#vote">How to vote</a>
+    </nav>
+    <div class="prefs">
+      <div class="size-group" role="group" aria-label="Text size">
+        <button type="button" class="size-btn" data-font-choice="sm" aria-pressed="true"><span aria-hidden="true">A</span></button>
+        <button type="button" class="size-btn" data-font-choice="md" aria-pressed="false"><span aria-hidden="true">A</span></button>
+        <button type="button" class="size-btn" data-font-choice="lg" aria-pressed="false"><span aria-hidden="true">A</span></button>
+        <button type="button" class="size-btn" data-font-choice="xl" aria-pressed="false"><span aria-hidden="true">A</span></button>
+      </div>
+      <button type="button" class="theme-btn" data-theme-toggle aria-pressed="true" aria-label="Switch to light theme">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="currentColor"/></svg>
+        <span data-theme-label>Light</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" aria-labelledby="hero-title">
+    <span class="chip">Nonpartisan · Every race on the Pima County LD17 ballot</span>
+    <h1 id="hero-title">Know your ballot <span class="grad">before you vote</span></h1>
+    <p class="subline">Ask about any candidate or proposition in your own words.<br>Get their record, both sides, and a match score built on your priorities.</p>
+    <div class="hero-links">
+      <a class="chip-link" href="/guide/">Read the full guide</a>
+      <a class="chip-link" href="/guide/#compare">Compare side by side</a>
+    </div>
+  </section>
+
+  <section class="board" aria-label="Ballot planner">
+    <div class="chat-slot">
+      <article class="card chat-card" id="chat-card" aria-labelledby="chat-title">
+        <div class="card-head">
+          <div class="head-text">
+            <h2 id="chat-title">Ask the Ballot Brain</h2>
+            <p class="sub">Tell it what matters to you, or name a race or prop.</p>
+          </div>
+          <div class="head-actions">
+            <span class="count-chip" id="msg-count" aria-live="polite">No messages yet</span>
+            <button type="button" class="icon-btn" id="download-btn" aria-label="Download your ballot notes" title="Download your ballot notes" disabled>
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <button type="button" class="icon-btn" id="reset-btn" aria-label="Start over" title="Start over">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.3-5.6M4 4v4h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <button type="button" class="pill-btn" id="full-btn" aria-pressed="false" aria-label="Full page">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              <span id="full-label">Full page</span>
+            </button>
+          </div>
+        </div>
+        <div class="log" id="chat-log" role="log" aria-live="polite" aria-relevant="additions" tabindex="0">
+          <div class="msg bot intro">
+            <p>Hi. I can walk you through any race on your ballot, from governor down to the TUSD board, plus all 13 propositions.</p>
+            <p>Try: "What do I need to know about Prop 144?" or "Compare the LD17 House candidates on water and schools."</p>
+          </div>
+        </div>
+        <form class="composer" id="composer" novalidate>
+          <label class="sr-only" for="chat-input">Your question</label>
+          <div class="composer-row">
+            <textarea id="chat-input" rows="1" maxlength="4000" placeholder="Ask about a candidate, race or prop…" autocomplete="off"></textarea>
+            <div class="composer-actions">
+              <button type="button" class="mic-btn" id="mic-btn" aria-pressed="false" aria-label="Start voice input" hidden>
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </button>
+              <button type="submit" class="send-btn" id="send-btn">Send</button>
+            </div>
+          </div>
+          <p class="mic-status" id="mic-status" hidden>Listening. Take your time; the mic turns off after 10 seconds of silence.</p>
+          <p class="mic-error" id="mic-error" role="alert" hidden></p>
+          <p class="note">This chat stays in this tab and clears when you close it. Voice input may be processed by your browser maker (Google for Chrome, Apple for Safari).</p>
+        </form>
+      </article>
+    </div>
+
+    <article class="card side-card match-card" aria-labelledby="top-title">
+      <span class="pill-label" id="top-title">Top match</span>
+      <div class="tile" id="top-tile">
+        <span class="tile-kind" id="top-kind">Ready</span>
+        <span class="tile-title" id="top-name">Waiting for your first question</span>
+      </div>
+      <div class="fit">
+        <span class="fit-score" id="top-score">—</span>
+        <span class="fit-label">fit for you</span>
+      </div>
+      <p class="fit-why" id="top-why">Scores compare documented positions with what you tell the planner. They are not endorsements.</p>
+    </article>
+
+    <article class="card side-card list-card" aria-labelledby="short-title">
+      <h2 id="short-title">Shortlist</h2>
+      <div class="gauge-row">
+        <svg class="gauge" viewBox="0 0 42 42" aria-hidden="true">
+          <circle cx="21" cy="21" r="16" fill="none" stroke-width="5" class="gauge-track"/>
+          <circle cx="21" cy="21" r="16" fill="none" stroke-width="5" class="gauge-fill" id="gauge-fill" stroke-dasharray="0 100.53" transform="rotate(-90 21 21)"/>
+        </svg>
+        <div><span class="gauge-num" id="gauge-num">—</span><span class="gauge-cap">top score</span></div>
+      </div>
+      <p class="rank-note" id="rank-note">Ranked by fit once you ask about a race or share your priorities.</p>
+      <ol class="short-list" id="short-list"></ol>
+    </article>
+
+    <article class="card side-card detail-card" aria-labelledby="detail-title">
+      <h2 id="detail-title">Listing details</h2>
+      <dl class="fields" id="detail-fields"><div><dt>Selected</dt><dd>Nothing yet</dd></div></dl>
+      <a class="guide-link" id="detail-link" href="/guide/">Open in the guide</a>
+      <div class="next">
+        <h3>Next step</h3>
+        <p id="next-step">Mail your ballot by Tuesday, Oct 27, or drop it off by 7 p.m. on Election Day, Nov 3.</p>
+      </div>
+    </article>
+  </section>
+  <p class="foot">Independent and nonpartisan. Not affiliated with any party, candidate or government office. Facts checked Oct 17, 2026. <a href="/guide/#method">How scores work</a></p>
+</main>
+<script src="/assets/prefs.js" defer></script>
+<script src="/assets/engine.js" defer></script>
+</body>
+</html>

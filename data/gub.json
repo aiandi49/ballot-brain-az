@@ -1,0 +1,2812 @@
+{
+ "meta": {
+  "title": "Ballot Brain AZ",
+  "updated": "2026-10-17",
+  "ballot": "Pima County · Legislative District 17 · Congressional District 6",
+  "election": "General Election, Tuesday, November 3, 2026",
+  "disclaimer": "Independent, nonpartisan voter guide. Not affiliated with any party, candidate or government office. Facts checked as of Oct 17, 2026; confirm details before you vote.",
+  "other_pima": "Elsewhere in Pima County (not on your precinct's ballot): Prop 423 Vail Unified budget override, Prop 424 Northwest Fire District $73M bond, Prop 426 Amphitheater land sale, Prop 428 Sahuarita Unified override, Prop 429 Tanque Verde Unified override, Prop 431 Oro Valley general plan."
+ },
+ "categories": [
+  {
+   "id": "cost",
+   "label": "Cost of living & housing",
+   "why": "Ranked a top priority in the 2026 Arizona Voters' Agenda survey.",
+   "statements": [
+    {
+     "id": "cost1",
+     "text": "Phase out Arizona's state income tax (now a flat 2.5%)."
+    },
+    {
+     "id": "cost2",
+     "text": "Cut permitting and zoning red tape so more homes get built faster."
+    },
+    {
+     "id": "cost3",
+     "text": "Bar large corporations and out-of-state investors from buying single-family homes."
+    }
+   ]
+  },
+  {
+   "id": "water",
+   "label": "Water",
+   "why": "Ranked a top priority in the 2026 Arizona Voters' Agenda survey.",
+   "statements": [
+    {
+     "id": "wa1",
+     "text": "Add state oversight of groundwater pumping in rural Arizona."
+    },
+    {
+     "id": "wa2",
+     "text": "Invest in new water supply such as desalination and large-scale recycling."
+    }
+   ]
+  },
+  {
+   "id": "immig",
+   "label": "Immigration & border",
+   "why": "A long-standing area of voter consensus on border security plus legal pathways.",
+   "statements": [
+    {
+     "id": "im1",
+     "text": "Local police should partner with ICE through 287(g) agreements."
+    },
+    {
+     "id": "im2",
+     "text": "Create a path to citizenship for people brought to the U.S. as children."
+    }
+   ]
+  },
+  {
+   "id": "edu",
+   "label": "Education",
+   "why": "Voters called public education essential and want accountability for public funds.",
+   "statements": [
+    {
+     "id": "edu1",
+     "text": "Keep universal ESA vouchers open to every family, with no income cap."
+    },
+    {
+     "id": "edu2",
+     "text": "Hold ESA-funded private schooling to academic and spending standards closer to public schools'."
+    }
+   ]
+  },
+  {
+   "id": "health",
+   "label": "Health care",
+   "why": "Federal Medicaid (AHCCCS) changes are a central issue in the CD6 race.",
+   "statements": [
+    {
+     "id": "hc1",
+     "text": "Reverse the 2025 federal cuts to Medicaid (AHCCCS)."
+    },
+    {
+     "id": "hc2",
+     "text": "Add work requirements and more frequent eligibility checks to Medicaid."
+    }
+   ]
+  },
+  {
+   "id": "safety",
+   "label": "Public safety",
+   "why": "Every legislative candidate in LD17 says they back law enforcement; the differences are in the details.",
+   "statements": [
+    {
+     "id": "ps1",
+     "text": "Expand funding and staffing for police, investigators and prosecutors."
+    },
+    {
+     "id": "ps2",
+     "text": "Set privacy limits, such as warrants, on police use of license-plate camera data."
+    }
+   ]
+  },
+  {
+   "id": "elections",
+   "label": "Elections",
+   "why": "Prop 144 and the Secretary of State race put election rules on the ballot.",
+   "statements": [
+    {
+     "id": "el1",
+     "text": "Support Prop 144: government ID for every voter including mail voters, plus a new court standard for election laws."
+    },
+    {
+     "id": "el2",
+     "text": "Keep no-excuse early voting by mail working the way it does today."
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "label": "Utilities & data centers",
+   "why": "Data centers, power bills and water use came up in nearly every 2026 debate.",
+   "statements": [
+    {
+     "id": "en1",
+     "text": "End tax breaks for data centers and make them pay their full share of power and water costs."
+    },
+    {
+     "id": "en2",
+     "text": "Pause or slow new data center development until impacts are studied."
+    },
+    {
+     "id": "en3",
+     "text": "Require utilities to build more renewable energy."
+    }
+   ]
+  },
+  {
+   "id": "repro",
+   "label": "Reproductive rights",
+   "why": "Voters added abortion rights to the state constitution in 2024 (Prop 139); bills to restrict access continue.",
+   "statements": [
+    {
+     "id": "rr1",
+     "text": "Keep abortion legal and accessible as voters approved in Prop 139 (2024)."
+    }
+   ]
+  },
+  {
+   "id": "money",
+   "label": "State money & investments",
+   "why": "The Treasurer race is about how Arizona invests and pays out its land-trust school money.",
+   "statements": [
+    {
+     "id": "mo1",
+     "text": "Move more of the state land trust into stock index funds to raise long-term returns."
+    },
+    {
+     "id": "mo2",
+     "text": "Divest state money from companies with DEI or 'woke' policies."
+    }
+   ]
+  },
+  {
+   "id": "dei",
+   "label": "Civil rights & DEI",
+   "why": "Prop 142 would add DEI limits to the state constitution.",
+   "statements": [
+    {
+     "id": "dei1",
+     "text": "Ban DEI statements, offices and race-based programs at public institutions (Prop 142)."
+    }
+   ]
+  }
+ ],
+ "races": [
+  {
+   "title": "U.S. House, District 6",
+   "rule": "Vote for 1",
+   "candidates": [
+    "mendoza",
+    "ciscomani",
+    "peters",
+    "swing"
+   ],
+   "level": "federal"
+  },
+  {
+   "title": "Governor",
+   "rule": "Vote for 1 ticket",
+   "candidates": [
+    "hobbs",
+    "biggs",
+    "lombardo",
+    "hourihan"
+   ],
+   "level": "state"
+  },
+  {
+   "title": "Secretary of State",
+   "rule": "Vote for 1",
+   "candidates": [
+    "fontes",
+    "kolodin",
+    "collier"
+   ],
+   "level": "state"
+  },
+  {
+   "title": "Attorney General",
+   "rule": "Vote for 1",
+   "candidates": [
+    "mayes",
+    "petersen"
+   ],
+   "level": "state"
+  },
+  {
+   "title": "State Treasurer",
+   "rule": "Vote for 1",
+   "candidates": [
+    "mansour",
+    "norton"
+   ],
+   "level": "state"
+  },
+  {
+   "title": "Superintendent of Public Instruction",
+   "rule": "Vote for 1",
+   "candidates": [
+    "leyba-ruiz",
+    "yee"
+   ],
+   "level": "state"
+  },
+  {
+   "title": "State Mine Inspector",
+   "rule": "Vote for 1",
+   "candidates": [
+    "matlock",
+    "presmyk"
+   ],
+   "level": "state"
+  },
+  {
+   "title": "Corporation Commission (vote for 2)",
+   "rule": "Vote for up to 2",
+   "candidates": [
+    "pratte",
+    "hill",
+    "thompson",
+    "heap",
+    "cease"
+   ],
+   "level": "state"
+  },
+  {
+   "title": "State Senate, LD17",
+   "rule": "Vote for 1",
+   "candidates": [
+    "soto",
+    "king"
+   ],
+   "level": "legislative"
+  },
+  {
+   "title": "State House, LD17 (vote for 2)",
+   "rule": "Vote for up to 2",
+   "candidates": [
+    "volk",
+    "lyon",
+    "winchester",
+    "keshel"
+   ],
+   "level": "legislative"
+  },
+  {
+   "title": "Clerk of the Superior Court",
+   "rule": "Vote for 1",
+   "candidates": [
+    "giacomino"
+   ],
+   "level": "county"
+  },
+  {
+   "title": "Justice of the Peace, Precinct 8",
+   "rule": "Vote for 1",
+   "candidates": [
+    "foster",
+    "parven"
+   ],
+   "level": "county"
+  },
+  {
+   "title": "TUSD Governing Board (vote for 2)",
+   "rule": "Vote for up to 2",
+   "candidates": [
+    "fernandez",
+    "rhodes",
+    "romero",
+    "acosta-ruiz",
+    "eckstrom"
+   ],
+   "level": "local"
+  }
+ ],
+ "sources": {
+  "sos_lang": {
+   "title": "Arizona Secretary of State: 2026 official ballot language",
+   "url": "https://azsos.gov/sites/default/files/docs/2026-Ballot-Language-English-2026-0819.pdf"
+  },
+  "luminaria_props": {
+   "title": "AZ Luminaria: 2026 propositions on the Pima County ballot (Oct 16, 2026)",
+   "url": "https://azluminaria.org/2026/10/16/2026-arizona-propositions-whats-on-the-ballot-in-pima-county/"
+  },
+  "ktar_props": {
+   "title": "KTAR: 2026 Arizona propositions guide",
+   "url": "https://ktar.com/arizona-politics-news/election/propositions-guide-ballot-measures"
+  },
+  "aclu_props": {
+   "title": "ACLU of Arizona: 2026 ballot proposition guide",
+   "url": "https://www.acluaz.org/news/2026-ballot-proposition-guide/"
+  },
+  "fox_320": {
+   "title": "FOX 10: Prop 320 debate",
+   "url": "https://www.fox10phoenix.com/election/arizona-proposition-320-debate"
+  },
+  "kold_jted": {
+   "title": "KOLD: Pima JTED asks voters for $250 million bond",
+   "url": "https://www.kold.com/2026/09/10/pima-jted-asks-voters-250-million-bond/"
+  },
+  "wiki_gov": {
+   "title": "Wikipedia: 2026 Arizona gubernatorial election",
+   "url": "https://en.wikipedia.org/wiki/2026_Arizona_gubernatorial_election"
+  },
+  "newsline_exec": {
+   "title": "Newsline: Republicans aim to retake Arizona's executive branch (Oct 14, 2026)",
+   "url": "https://www.newslinelocal.com/2026/10/14/republicans-aim-to-retake-arizonas-executive-branch/"
+  },
+  "fox_govdebate": {
+   "title": "FOX 10: Governor candidates debate water, taxes, data centers",
+   "url": "https://www.fox10phoenix.com/election/2026-election-debate-arizona-gubernatorial-candidates-face-off"
+  },
+  "kawc_hobbs_dc": {
+   "title": "KAWC: Hobbs against tax breaks for data centers (Jan 8, 2026)",
+   "url": "https://www.kawc.org/news/2026-01-08/arizona-gov-hobbs-against-tax-breaks-to-build-data-centers-in-az"
+  },
+  "nfts_vetoes": {
+   "title": "Arizona Mirror / States Newsroom: Hobbs adds 88 vetoes (Jun 20, 2026)",
+   "url": "https://www.newsfromthestates.com/article/katie-hobbs-adds-88-vetoes-her-record-rejecting-gop-bills-schools-wolves-and-elections"
+  },
+  "ktar_poll": {
+   "title": "KTAR: HighGround poll, Democrats lead statewide races (Oct 13, 2026)",
+   "url": "https://ktar.com/arizona-politics-news/election/arizona-poll-democrats-lead-races"
+  },
+  "ontheissues_biggs": {
+   "title": "OnTheIssues: Andy Biggs on abortion",
+   "url": "https://ontheissues.org/governor/Andy_Biggs_Abortion.htm"
+  },
+  "abc_groundwater": {
+   "title": "AP via ABC News: Arizona moves to curb groundwater use in more rural areas",
+   "url": "https://abcnews.go.com/US/wireStory/drought-stricken-arizona-moves-curb-groundwater-rural-areas-129188165"
+  },
+  "chn_agurban": {
+   "title": "Courthouse News: Arizona approves Ag-to-Urban water plan",
+   "url": "https://www.courthousenews.com/arizona-approves-ag-to-urban-water-conservation-plan/"
+  },
+  "kjzz_cd6": {
+   "title": "KJZZ: 2026 Arizona 6th Congressional District, the candidates",
+   "url": "https://www.kjzz.org/elections/2026-10-06/2026-arizona-6th-congressional-district-race-the-candidates-elex"
+  },
+  "azmirror_cd6": {
+   "title": "Arizona Mirror: Ciscomani and Mendoza spar over health care (Sep 17, 2026)",
+   "url": "https://azmirror.com/2026/09/17/in-arizonas-most-competitive-district-ciscomani-and-mendoza-spar-over-healthcare-policies/"
+  },
+  "azpm_factcheck": {
+   "title": "AZPM: CD6 debate fact-check (Sep 11, 2026)",
+   "url": "https://news.azpm.org/p/azpmnews/2026/9/11/231193-ciscomani-mendoza-debated-issues-like-economy-healthcare-in-cd6-race-we-fact-checked-their-claims/"
+  },
+  "azpm_cd6": {
+   "title": "AZPM: CD6 election guide, candidate answers",
+   "url": "https://news.azpm.org/cd6/"
+  },
+  "wiki_ciscomani": {
+   "title": "Wikipedia: Juan Ciscomani",
+   "url": "https://en.wikipedia.org/wiki/Juan_Ciscomani"
+  },
+  "kold_swing": {
+   "title": "KOLD: Gary Swing's plan for U.S. House District 6",
+   "url": "https://www.kold.com/2026/10/09/tucson-now-gary-swings-plan-us-house-d-6/"
+  },
+  "votebeat_sos": {
+   "title": "Votebeat: Fontes vs. Kolodin (Oct 9, 2026)",
+   "url": "https://www.votebeat.org/arizona/2026/10/09/2026-secretary-of-state-election-adrian-fontes-alex-kolodin/"
+  },
+  "kold_ag": {
+   "title": "KOLD: Mayes, Petersen clash in AG debate (Sep 24, 2026)",
+   "url": "https://www.kold.com/2026/09/24/mayes-petersen-clash-over-law-enforcement-first-attorney-general-debate/"
+  },
+  "kjzz_treas": {
+   "title": "KJZZ: Treasurer candidates say the other puts state money at risk (Sep 24, 2026)",
+   "url": "https://www.kjzz.org/politics/2026-09-24/arizona-treasurer-candidates-both-say-their-opponent-will-put-the-states-money-at-risk"
+  },
+  "kold_supt": {
+   "title": "KOLD: Superintendent candidates debate ESA oversight (Sep 16, 2026)",
+   "url": "https://www.kold.com/2026/09/16/superintendent-candidates-debate-esa-oversight-education-funding/"
+  },
+  "azpm_supt": {
+   "title": "AZPM: ESAs, DEI and funding, superintendent debate",
+   "url": "https://apis.azpm.org/s/103362-esas-dei-and-education-funding-az-superintendent-candidates-debate/"
+  },
+  "kjzz_mine": {
+   "title": "KJZZ: Mine inspector candidates debate (Sep 1, 2026)",
+   "url": "https://www.kjzz.org/politics/2026-09-01/arizona-mine-inspector-candidates-accuse-each-other-of-lack-of-experience-in-debate"
+  },
+  "kjzz_cc": {
+   "title": "KJZZ: Corporation Commission, the candidates",
+   "url": "https://www.kjzz.org/elections/2026-10-06/2026-arizona-corporation-commission-race-the-candidates-elex"
+  },
+  "kjzz_cc_debate": {
+   "title": "KJZZ: Corporation Commission debate on data centers (Sep 10, 2026)",
+   "url": "https://www.kjzz.org/politics/2026-09-10/corporation-commission-debate-came-with-intense-sparring-over-data-centers"
+  },
+  "kjzz_ld17s": {
+   "title": "KJZZ: LD17 Senate, the candidates",
+   "url": "https://www.kjzz.org/elections/2026-10-06/2026-arizona-senate-17th-legislative-district-race-the-candidates-elex"
+  },
+  "kjzz_ld17h": {
+   "title": "KJZZ: LD17 House, the candidates",
+   "url": "https://www.kjzz.org/elections/2026-10-06/2026-arizona-house-17th-legislative-district-race-the-candidates-elex"
+  },
+  "spotlight_volk": {
+   "title": "Tucson Spotlight: Volk seeks reelection",
+   "url": "https://www.tucsonspotlight.org/kevin-volk-seeks-reelection-in-arizona-house-district-17/"
+  },
+  "substack_ld17": {
+   "title": "Chatterbox Files (Substack): LD17 candidate roundup, Oct 9, 2026 — opinion writer; used only for debate statements",
+   "url": "https://chatterboxfiles.substack.com/p/az-election-2026-ld-17-state-legislature"
+  },
+  "azleg_hb2364": {
+   "title": "Arizona Legislature: HB 2364 (2026) House engrossed summary",
+   "url": "https://www.azleg.gov/legtext/57leg/2R/summary/H.HB2364_012226_HOUSEENGROSSED.DOCX.htm"
+  },
+  "kjzz_hcr2040": {
+   "title": "KJZZ: Firefighters speak out against HCR 2040 (Jul 10, 2026)",
+   "url": "https://www.kjzz.org/elections/2026-07-10/they-feel-pissed-arizona-firefighters-speak-out-against-republican-anti-union-ballot-measure"
+  },
+  "jpr_release": {
+   "title": "AZ Commission on Judicial Performance Review: 2026 ratings release",
+   "url": "https://www.azcourts.gov/Portals/0/News%20Release%20-%20Arizona%20Commission%20on%20Judicial%20Performance%20Review%20Announces%20Performance%20Ratings%20for%20Judges.pdf"
+  },
+  "jpr_reports": {
+   "title": "Judicial Performance Review: all 2026 reports",
+   "url": "https://jpr.azcourts.gov/Judicial-Performance-Reports/2026-Judicial-Performance-Reports/2026-ALL-Reports"
+  },
+  "wiki_judicial": {
+   "title": "Wikipedia: 2026 Arizona judicial election",
+   "url": "https://en.wikipedia.org/wiki/2026_Arizona_judicial_election"
+  },
+  "ballotbrief_tusd": {
+   "title": "The Ballot Brief: TUSD Governing Board",
+   "url": "https://theballotbrief.com/state/arizona/pima-county/governing-board-tucson-unified-school-district-no-1"
+  },
+  "kold_rhodes": {
+   "title": "KOLD: Tre'Davon Rhodes' plan for TUSD board",
+   "url": "https://www.kold.com/2026/10/13/tucson-now-tredavon-rhodes-plan-tusd-governing-board/"
+  },
+  "jp_foster": {
+   "title": "Pima County Justice Courts: Judge Kristel Ann Foster bio",
+   "url": "https://www.jp.pima.gov/Judges/JudgeBios/Foster.html"
+  },
+  "cfa_agenda": {
+   "title": "Center for the Future of Arizona: 2026 Arizona Voters' Agenda",
+   "url": "https://www.arizonafuture.org/news-events/news/2026/08/new-arizona-voters-agenda-reveals-clear-opportunities-for-leadership-on-the-issues-voters-prioritize/"
+  },
+  "pima_recorder": {
+   "title": "Pima County Recorder: voter dashboard and ballot FAQs",
+   "url": "https://recorder.pima.gov/VoterDashboard"
+  },
+  "pima_sites": {
+   "title": "Pima County Recorder: early voting sites",
+   "url": "https://recorder.pima.gov/EarlyVotingSites"
+  },
+  "pima_writein": {
+   "title": "Pima County Recorder: write-in candidates",
+   "url": "https://recorder.pima.gov/WriteIn"
+  },
+  "arizona_vote": {
+   "title": "Arizona.Vote (Secretary of State voter portal)",
+   "url": "https://www.arizona.vote"
+  },
+  "ballot_photo": {
+   "title": "Your official Pima County early ballot and full-text insert (photos you supplied)",
+   "url": ""
+  }
+ },
+ "entries": [
+  {
+   "id": "mendoza",
+   "type": "candidate",
+   "race": "U.S. House, District 6",
+   "title": "JoAnna Mendoza",
+   "party": "Democratic",
+   "summary": "Navy and Marine Corps veteran from Eloy running to unseat Rep. Juan Ciscomani, mainly on health care and cost of living.",
+   "body": "Mendoza grew up in a farmworker family in Eloy, enlisted in the Navy and later served as a Marine Corps drill sergeant. She is running on reversing the 2025 federal Medicaid (AHCCCS) cuts, cost of living and border security tied to ports of entry and cartels. She has no prior record in Congress, so her positions are campaign commitments, not votes.",
+   "record": [
+    "No congressional voting record (first run for this seat).",
+    "Says she would cancel tax cuts for billionaires, expand the Child Tax Credit and make tips and overtime tax cuts permanent (AZPM survey).",
+    "Would restore AHCCCS cuts, keep rural hospitals open and address doctor and nurse shortages (AZPM survey)."
+   ],
+   "supporters_point_to": [
+    "Military service, including as a Marine Corps drill sergeant.",
+    "Detailed housing plan: starter homes, zoning reform, and limits on corporate buyers of single-family homes.",
+    "Water plan backing a durable seven-state Colorado River deal and PFAS cleanup in Pima County."
+   ],
+   "critics_point_to": [
+    "Has not said how she would pay to restore the Medicaid funding (Arizona Mirror).",
+    "Past support for shifting some police budget money to other uses, and deleted past social media posts (KJZZ).",
+    "Wrongly received a state education property-tax benefit on two homes (about $820); not charged, campaign called it a filing mistake (AZPM)."
+   ],
+   "stances": {
+    "cost2": [
+     1,
+     "azpm_cd6",
+     "Supports starter homes and zoning reform."
+    ],
+    "cost3": [
+     1,
+     "azpm_cd6",
+     ""
+    ],
+    "im2": [
+     1,
+     "azpm_cd6",
+     "Path for childhood arrivals, law-abiding workers and noncitizen veterans."
+    ],
+    "hc1": [
+     1,
+     "azmirror_cd6",
+     ""
+    ],
+    "hc2": [
+     -1,
+     "azmirror_cd6",
+     "Says the new red tape pushes low-income Arizonans off AHCCCS."
+    ],
+    "ps1": [
+     1,
+     "azpm_cd6",
+     "Wants to fund local law enforcement; critics cite past budget-shift comments."
+    ]
+   },
+   "sources": [
+    "azpm_cd6",
+    "azmirror_cd6",
+    "azpm_factcheck",
+    "kjzz_cd6"
+   ],
+   "details": {
+    "Race": "U.S. House, District 6",
+    "Party": "Democratic"
+   },
+   "tags": [
+    "U.S. House, District 6",
+    "Democratic"
+   ]
+  },
+  {
+   "id": "ciscomani",
+   "type": "candidate",
+   "race": "U.S. House, District 6",
+   "title": "Juan Ciscomani",
+   "party": "Republican",
+   "summary": "Two-term incumbent and Appropriations Committee member, rated one of Arizona's most bipartisan members, who voted for the 2025 One Big Beautiful Bill.",
+   "body": "Born in Hermosillo and raised in Tucson, Ciscomani was the first in his family to graduate college (Pima Community College and the University of Arizona), then served as a senior adviser to Gov. Doug Ducey. He won CD6 by narrow margins in 2022 (50.7%) and 2024 (50.0%). His central vote this term was for the One Big Beautiful Bill, which includes Medicaid changes he had earlier warned about in letters to House leaders.",
+   "record": [
+    "Voted for the One Big Beautiful Bill (July 2025) after signing a June 2025 letter saying he could not support a final bill that threatened Medicaid coverage; says he held out until a cut to federal matching funds was dropped (Arizona Mirror).",
+    "Supports Medicaid work requirements and twice-yearly eligibility checks to prevent fraud (AZPM).",
+    "Opposes a nationwide abortion ban but supported Arizona's former 15-week limit; criticized the 2024 ruling that enforced the 1864 ban (Wikipedia).",
+    "Co-sponsored the Agent Raul Gonzalez Officer Safety Act on fleeing police near the border; open to protections for people brought here as children."
+   ],
+   "supporters_point_to": [
+    "Ranked among the most bipartisan members of Arizona's delegation by Bridge Grades (KJZZ).",
+    "Appropriations and Veterans' Affairs experience; backs ending top VA executive bonuses.",
+    "Voiced concerns about rural hospitals and Social Security Administration cuts inside his own party."
+   ],
+   "critics_point_to": [
+    "Voted for the Medicaid changes days after a letter saying he couldn't; the CBO estimated the bill cuts Medicaid and CHIP by more than $1 trillion over a decade (Arizona Mirror).",
+    "Called Arizona's $167 million rural-health share insufficient in January, then cited it as a benefit in the debate (Arizona Mirror).",
+    "Fact-checked as false on two debate claims: that Mendoza 'cheated' on taxes, and that no VA doctors were let go (AZPM)."
+   ],
+   "stances": {
+    "im2": [
+     1,
+     "azpm_cd6",
+     "AZPM survey: 'Strongly agree' on a pathway for childhood arrivals."
+    ],
+    "hc1": [
+     -1,
+     "azmirror_cd6",
+     "Voted for the bill containing the cuts."
+    ],
+    "hc2": [
+     1,
+     "azpm_factcheck",
+     ""
+    ],
+    "rr1": [
+     -1,
+     "wiki_ciscomani",
+     "Supported Arizona's former 15-week limit; opposes a national ban."
+    ],
+    "wa2": [
+     1,
+     "azpm_cd6",
+     "Yes on federal help for small-scale water projects."
+    ]
+   },
+   "sources": [
+    "wiki_ciscomani",
+    "azmirror_cd6",
+    "azpm_factcheck",
+    "kjzz_cd6",
+    "azpm_cd6"
+   ],
+   "details": {
+    "Race": "U.S. House, District 6",
+    "Party": "Republican"
+   },
+   "tags": [
+    "U.S. House, District 6",
+    "Republican"
+   ]
+  },
+  {
+   "id": "peters",
+   "type": "candidate",
+   "race": "U.S. House, District 6",
+   "title": "Jereme Lance Peters",
+   "party": "Libertarian",
+   "summary": "Libertarian nominee. We found no published biography or issue positions.",
+   "body": "Peters appears on the ballot as the Libertarian candidate. Candidate directories we checked (BallotReady) list him for the primary and general election but publish no background or issue stances. Voters who want to know more should contact the campaign or the Libertarian Party of Arizona.",
+   "record": [
+    "No public record found."
+   ],
+   "supporters_point_to": [
+    "Offers a Libertarian choice in a close race."
+   ],
+   "critics_point_to": [
+    "No published platform found to evaluate."
+   ],
+   "stances": {},
+   "sources": [
+    "ballot_photo"
+   ],
+   "details": {
+    "Race": "U.S. House, District 6",
+    "Party": "Libertarian"
+   },
+   "tags": [
+    "U.S. House, District 6",
+    "Libertarian"
+   ]
+  },
+  {
+   "id": "swing",
+   "type": "candidate",
+   "race": "U.S. House, District 6",
+   "title": "Gary Swing",
+   "party": "Green",
+   "summary": "Green Party nominee with roots in peace and environmental movements; runs on cutting military spending and electoral reform.",
+   "body": "Swing has run for office in Colorado and Arizona. He wants to cut the federal military budget by 90% and redirect it to education, green energy and infrastructure, abolish ICE, and adopt proportional representation and ranked-choice voting.",
+   "record": [
+    "No elected record."
+   ],
+   "supporters_point_to": [
+    "Clear, detailed platform on electoral reform and spending priorities."
+   ],
+   "critics_point_to": [
+    "Platform goals such as a 90% military cut and abolishing ICE have little support in Congress."
+   ],
+   "stances": {
+    "im1": [
+     -1,
+     "kold_swing",
+     "Would abolish ICE."
+    ],
+    "im2": [
+     1,
+     "kold_swing",
+     "Supports legal paths to residency."
+    ]
+   },
+   "sources": [
+    "kold_swing"
+   ],
+   "details": {
+    "Race": "U.S. House, District 6",
+    "Party": "Green"
+   },
+   "tags": [
+    "U.S. House, District 6",
+    "Green"
+   ]
+  },
+  {
+   "id": "hobbs",
+   "type": "candidate",
+   "race": "Governor",
+   "title": "Katie Hobbs (with John Giles)",
+   "party": "Democratic",
+   "summary": "Incumbent governor seeking a second term with former Republican Mesa Mayor John Giles, running as an independent, for lieutenant governor; record-setting use of the veto.",
+   "body": "Hobbs has governed with a Republican Legislature since 2023, vetoing 541 bills through June 2026, a state record. She signed the FY2027 budget that ended state tax on tips and overtime and raised the child tax credit and standard deduction, signed the Ag-to-Urban water law, and in 2026 pushed to end data center tax breaks. She declined to debate, as in 2022. Giles is listed on the ballot as party not designated.",
+   "record": [
+    "541 career vetoes through June 2026, including bills on DEI in state hiring, election paper features and fetal-development lessons (Arizona Mirror).",
+    "Sought an income cap on ESA vouchers in the FY2026 and FY2027 budgets; neither final budget included it (Newsline).",
+    "Vetoed a 2025 bill that would have required local police to join ICE 287(g) agreements (Newsline).",
+    "Proposed ending data center sales-tax breaks and a penny-a-gallon water fee on data centers (KAWC, Jan 2026).",
+    "Signed Ag-to-Urban water legislation; her administration moved in 2026 to curb groundwater use in more rural areas (Courthouse News; AP)."
+   ],
+   "supporters_point_to": [
+    "Cut taxes for working families in the FY2027 budget (tips, overtime, child credit).",
+    "Acted on rural groundwater when the Legislature would not.",
+    "Bipartisan ticket with John Giles; leads in public polling (HighGround: 50.5% to 33.7%)."
+   ],
+   "critics_point_to": [
+    "Record vetoes mean many bills, including bipartisan-adjacent ones, died on her desk.",
+    "Declined every debate, so voters did not see her questioned alongside her opponents.",
+    "Republicans say she weakened border efforts by ending the border barrier initiatives and the border security strike task force (Newsline)."
+   ],
+   "stances": {
+    "edu1": [
+     -1,
+     "newsline_exec",
+     "Sought an income cap."
+    ],
+    "edu2": [
+     1,
+     "newsline_exec",
+     "Has advocated more ESA oversight."
+    ],
+    "im1": [
+     -1,
+     "newsline_exec",
+     "Vetoed mandatory 287(g)."
+    ],
+    "wa1": [
+     1,
+     "abc_groundwater",
+     ""
+    ],
+    "en1": [
+     1,
+     "kawc_hobbs_dc",
+     ""
+    ],
+    "dei1": [
+     -1,
+     "nfts_vetoes",
+     "Vetoed SB 1013 (DEI ban in state hiring)."
+    ],
+    "rr1": [
+     1,
+     "wiki_gov",
+     "Endorsed by Planned Parenthood Advocates of Arizona; signed the 2024 repeal of the 1864 ban."
+    ]
+   },
+   "sources": [
+    "newsline_exec",
+    "nfts_vetoes",
+    "kawc_hobbs_dc",
+    "abc_groundwater",
+    "chn_agurban",
+    "wiki_gov",
+    "ktar_poll"
+   ],
+   "details": {
+    "Race": "Governor",
+    "Party": "Democratic",
+    "Running mate": "John Giles (party not designated)"
+   },
+   "tags": [
+    "Governor",
+    "Democratic"
+   ]
+  },
+  {
+   "id": "biggs",
+   "type": "candidate",
+   "race": "Governor",
+   "title": "Andy Biggs (with Sine Kerr)",
+   "party": "Republican",
+   "summary": "Congressman and former Freedom Caucus chair; running on eliminating the state income tax, protecting ESA vouchers, border enforcement and ending data center subsidies.",
+   "body": "Biggs, who represents Arizona's 5th Congressional District and previously led the Arizona Senate, won the GOP primary with about 74%. He is endorsed by Donald Trump, former Gov. Doug Ducey and Turning Point USA. His running mate is former state Sen. Sine Kerr.",
+   "record": [
+    "Would phase out the 2.5% state income tax and work with local governments on property taxes (FOX 10 debate).",
+    "Would end state tax breaks and subsidies for data centers and bar them from drawing power or water away from homes and businesses (FOX 10).",
+    "Would revive the border security strike task force and encourage local 287(g) partnerships (Newsline).",
+    "Co-sponsored the federal Life at Conception Act and the Born-Alive Abortion Survivors Protection Act (OnTheIssues).",
+    "Opposed Medicaid expansion and says AHCCCS has significant fraud among able-bodied adults; proposes a DOGE-style efficiency program."
+   ],
+   "supporters_point_to": [
+    "Concrete tax-cut and anti-subsidy agenda on data centers that matches what many voters say they want.",
+    "Supports new water supply: storage, recycling and desalination.",
+    "Long legislative record on limited government."
+   ],
+   "critics_point_to": [
+    "Federal co-sponsorships on abortion conflict with the rights voters added in Prop 139 (2024).",
+    "Phasing out the income tax would remove a major revenue source; he has not detailed replacements beyond growth.",
+    "Trails Hobbs by double digits in recent public polling (HighGround)."
+   ],
+   "stances": {
+    "cost1": [
+     1,
+     "fox_govdebate",
+     ""
+    ],
+    "cost2": [
+     1,
+     "newsline_exec",
+     "Would cut permitting barriers."
+    ],
+    "wa2": [
+     1,
+     "fox_govdebate",
+     ""
+    ],
+    "im1": [
+     1,
+     "newsline_exec",
+     ""
+    ],
+    "edu1": [
+     1,
+     "newsline_exec",
+     "Says he will protect the program."
+    ],
+    "hc1": [
+     -1,
+     "fox_govdebate",
+     "Opposed Medicaid expansion; cites fraud."
+    ],
+    "en1": [
+     1,
+     "fox_govdebate",
+     ""
+    ],
+    "en2": [
+     0,
+     "fox_govdebate",
+     "Leaves zoning to local governments."
+    ],
+    "rr1": [
+     -1,
+     "ontheissues_biggs",
+     ""
+    ]
+   },
+   "sources": [
+    "fox_govdebate",
+    "newsline_exec",
+    "ontheissues_biggs",
+    "wiki_gov",
+    "ktar_poll"
+   ],
+   "details": {
+    "Race": "Governor",
+    "Party": "Republican",
+    "Running mate": "Sine Kerr"
+   },
+   "tags": [
+    "Governor",
+    "Republican"
+   ]
+  },
+  {
+   "id": "hourihan",
+   "type": "candidate",
+   "race": "Governor",
+   "title": "Teri Hourihan (with Angela Harrolle Mohan)",
+   "party": "No Labels",
+   "summary": "Therapist running on the No Labels line; proposes a day-one data center moratorium, a water security plan and universal child care.",
+   "body": "Hourihan won the No Labels primary narrowly. In the governor's debate she called for a temporary moratorium on new data center applications, statewide water conservation standards and desalination, universal child care modeled on New Mexico, and a full audit of state agencies.",
+   "record": [
+    "No elected record."
+   ],
+   "supporters_point_to": [
+    "Specific plans on data centers, water and child care."
+   ],
+   "critics_point_to": [
+    "Little-known third-party campaign; funding for universal child care not detailed."
+   ],
+   "stances": {
+    "wa2": [
+     1,
+     "fox_govdebate",
+     ""
+    ],
+    "en1": [
+     1,
+     "fox_govdebate",
+     ""
+    ],
+    "en2": [
+     1,
+     "fox_govdebate",
+     "Day-one moratorium on new applications."
+    ],
+    "hc1": [
+     1,
+     "fox_govdebate",
+     "Opposes cuts to mental health and disability services."
+    ]
+   },
+   "sources": [
+    "fox_govdebate",
+    "wiki_gov"
+   ],
+   "details": {
+    "Race": "Governor",
+    "Party": "No Labels",
+    "Running mate": "Angela Harrolle Mohan"
+   },
+   "tags": [
+    "Governor",
+    "No Labels"
+   ]
+  },
+  {
+   "id": "lombardo",
+   "type": "candidate",
+   "race": "Governor",
+   "title": "Risa Lombardo (with Lisa Castillo)",
+   "party": "Green",
+   "summary": "Green nominee whom the Arizona Green Party has disavowed; skipped the debate.",
+   "body": "Lombardo, a former Republican precinct committee member, won the Green primary over the party's backed write-in. The Arizona Green Party accused her of running to pull votes from Hobbs and asked to replace her; she denies it. In September the Attorney General's Office was reported to be investigating allegations of fraudulent public-funding donations involving several campaigns including hers.",
+   "record": [
+    "No elected record."
+   ],
+   "supporters_point_to": [
+    "Offers a Green line on the ballot."
+   ],
+   "critics_point_to": [
+    "Disavowed by her own party; under a reported AG inquiry; no detailed platform."
+   ],
+   "stances": {},
+   "sources": [
+    "wiki_gov",
+    "fox_govdebate"
+   ],
+   "details": {
+    "Race": "Governor",
+    "Party": "Green",
+    "Running mate": "Lisa Castillo"
+   },
+   "tags": [
+    "Governor",
+    "Green"
+   ]
+  },
+  {
+   "id": "fontes",
+   "type": "candidate",
+   "race": "Secretary of State",
+   "title": "Adrian Fontes",
+   "party": "Democratic",
+   "summary": "Incumbent and former Maricopa County Recorder; opposes Prop 144 and refused to hand the full voter roll to the U.S. Justice Department.",
+   "body": "Fontes is a lawyer and former federal public defender who oversaw Maricopa County's 2020 election as recorder. As Secretary of State he revised the Elections Procedures Manual (courts struck some provisions), created a ballot-status tracker and wants funding for a new statewide voter registration system.",
+   "record": [
+    "Declined to give the DOJ an unredacted voter roll; warned counties not to either (Votebeat).",
+    "Pushing a 'Voters First Act': vote centers in every county, counting misdirected early ballots, an election cybersecurity fund (Votebeat).",
+    "Says Prop 144's promise of election-night results is unrealistic and its language hands the Legislature too much power."
+   ],
+   "supporters_point_to": [
+    "Experienced election administrator; leads by about 12 points (HighGround).",
+    "Protects voter data from broad federal requests.",
+    "Supports voter-roll cleanup and stronger ID (Newsline)."
+   ],
+   "critics_point_to": [
+    "Courts struck parts of his Elections Procedures Manual.",
+    "Republicans say he overreaches on ballot-measure language.",
+    "Delays in sharing federal felon lists drew criticism (he blames DOJ's data format)."
+   ],
+   "stances": {
+    "el1": [
+     -1,
+     "votebeat_sos",
+     ""
+    ],
+    "el2": [
+     1,
+     "votebeat_sos",
+     ""
+    ]
+   },
+   "sources": [
+    "votebeat_sos",
+    "newsline_exec",
+    "ktar_poll"
+   ],
+   "details": {
+    "Race": "Secretary of State",
+    "Party": "Democratic"
+   },
+   "tags": [
+    "Secretary of State",
+    "Democratic"
+   ]
+  },
+  {
+   "id": "kolodin",
+   "type": "candidate",
+   "race": "Secretary of State",
+   "title": "Alexander Kolodin",
+   "party": "Republican",
+   "summary": "State representative and Freedom Caucus member who leads Prop 144; promises faster results and 'the most transparent' office.",
+   "body": "Kolodin, an attorney, brought post-2020 lawsuits and was admonished by the State Bar for fraud claims made without evidence; he rejects the 'election denier' label. He beat former party chair Gina Swoboda 60-40 in the primary.",
+   "record": [
+    "Sponsor of HCR 2001, now Prop 144 (AZ Luminaria).",
+    "Supported banning vote centers, shortening early voting and requiring mail voters to recertify their address each cycle (Votebeat).",
+    "Sponsored a bill barring the AG from prosecuting county supervisors who refuse to certify elections (Votebeat).",
+    "First called federal requests for unredacted voter rolls 'common sense,' later proposed licensing the federal SAVE tool so data stays in Arizona."
+   ],
+   "supporters_point_to": [
+    "Several election bills passed with bipartisan support as part of must-pass legislation.",
+    "Focus on speed of results and a foreign-money ban.",
+    "Clear agenda for change."
+   ],
+   "critics_point_to": [
+    "State Bar admonishment over evidence-free 2020 claims.",
+    "Has declined interviews and dodged questions about confidence in past elections (Votebeat).",
+    "Opponents say Prop 144 could burden the roughly 80% of Arizonans who vote by mail."
+   ],
+   "stances": {
+    "el1": [
+     1,
+     "votebeat_sos",
+     ""
+    ],
+    "el2": [
+     -1,
+     "votebeat_sos",
+     "Supported shortening early voting and mail-voter recertification."
+    ]
+   },
+   "sources": [
+    "votebeat_sos",
+    "luminaria_props"
+   ],
+   "details": {
+    "Race": "Secretary of State",
+    "Party": "Republican"
+   },
+   "tags": [
+    "Secretary of State",
+    "Republican"
+   ]
+  },
+  {
+   "id": "collier",
+   "type": "candidate",
+   "race": "Secretary of State",
+   "title": "Duwayne Collier",
+   "party": "Green",
+   "summary": "Green Party nominee. We found no published platform.",
+   "body": "Collier appears on the ballot as the Green candidate. We could not find a campaign site or interviews.",
+   "record": [
+    "No public record found."
+   ],
+   "supporters_point_to": [
+    "Third choice in the race."
+   ],
+   "critics_point_to": [
+    "No published platform found to evaluate."
+   ],
+   "stances": {},
+   "sources": [
+    "ballot_photo"
+   ],
+   "details": {
+    "Race": "Secretary of State",
+    "Party": "Green"
+   },
+   "tags": [
+    "Secretary of State",
+    "Green"
+   ]
+  },
+  {
+   "id": "mayes",
+   "type": "candidate",
+   "race": "Attorney General",
+   "title": "Kris Mayes",
+   "party": "Democratic",
+   "summary": "Incumbent who won in 2022 by 280 votes; has sued the Trump administration more than 50 times and wants to slow data center growth.",
+   "body": "Mayes grew up in Prescott and previously served on the Corporation Commission. In office she has focused on fentanyl, scams and corporate accountability, ordered a review of Flock license-plate cameras, and filed more than 50 suits against the federal government over issues including mail-ballot rules, tariffs and vaccine policy.",
+   "record": [
+    "More than 50 lawsuits against the Trump administration (KOLD).",
+    "Sued to stop an ICE warehouse in Surprise over missing environmental review.",
+    "Warned that masked immigration agents could cause deadly confrontations; police groups condemned the remark (KOLD).",
+    "Ordered a review of Flock cameras and supports statewide privacy standards (Newsline)."
+   ],
+   "supporters_point_to": [
+    "Leads in polling by 5 to 15 points with some Republican support.",
+    "Consumer protection and anti-scam work.",
+    "Privacy safeguards on surveillance cameras."
+   ],
+   "critics_point_to": [
+    "Arizona Police Association, Fraternal Order of Police and Sheriffs' Association condemned her ICE remarks.",
+    "Critics say the volume of federal lawsuits is political.",
+    "Petersen says she voted against police interests; she says the reverse of him."
+   ],
+   "stances": {
+    "ps2": [
+     1,
+     "newsline_exec",
+     ""
+    ],
+    "en2": [
+     1,
+     "kold_ag",
+     "Wants to 'pump the brakes.'"
+    ],
+    "en1": [
+     1,
+     "kold_ag",
+     ""
+    ]
+   },
+   "sources": [
+    "kold_ag",
+    "newsline_exec",
+    "ktar_poll"
+   ],
+   "details": {
+    "Race": "Attorney General",
+    "Party": "Democratic"
+   },
+   "tags": [
+    "Attorney General",
+    "Democratic"
+   ]
+  },
+  {
+   "id": "petersen",
+   "type": "candidate",
+   "race": "Attorney General",
+   "title": "Warren Petersen",
+   "party": "Republican",
+   "summary": "Arizona Senate President running on doubling criminal investigators and prosecutors and partnering with ICE.",
+   "body": "Petersen, a third-generation Gilbert resident, beat Rodney Glassman in the GOP primary. He says he would double criminal investigators and prosecutors within the current budget, join 287(g), defend laws like the Save Women's Sports Act, and require warrants for license-plate camera data.",
+   "record": [
+    "Leads the Senate that referred most of the 2026 propositions to the ballot.",
+    "Says the 2020 results were certified 'prematurely' but would drop related legal challenges on day one (KOLD).",
+    "Supports more data centers with local control.",
+    "Says local communities should have had a say on the Florence detention expansion."
+   ],
+   "supporters_point_to": [
+    "Backed by police unions on public safety.",
+    "Warrant requirement for license-plate data is a privacy safeguard.",
+    "Promises more prosecutors without new spending."
+   ],
+   "critics_point_to": [
+    "Comments on 2020 certification.",
+    "Says anyone here illegally, including young migrants, should face possible deportation.",
+    "Trails Mayes in public polling."
+   ],
+   "stances": {
+    "ps1": [
+     1,
+     "newsline_exec",
+     "Double investigators and prosecutors."
+    ],
+    "ps2": [
+     1,
+     "newsline_exec",
+     "Require warrants for Flock data."
+    ],
+    "im1": [
+     1,
+     "newsline_exec",
+     ""
+    ],
+    "im2": [
+     -1,
+     "kold_ag",
+     "Says those here illegally should face possible deportation."
+    ],
+    "en1": [
+     -1,
+     "kold_ag",
+     "Supports more data centers."
+    ],
+    "en2": [
+     -1,
+     "kold_ag",
+     ""
+    ]
+   },
+   "sources": [
+    "kold_ag",
+    "newsline_exec",
+    "ktar_poll"
+   ],
+   "details": {
+    "Race": "Attorney General",
+    "Party": "Republican"
+   },
+   "tags": [
+    "Attorney General",
+    "Republican"
+   ]
+  },
+  {
+   "id": "mansour",
+   "type": "candidate",
+   "race": "State Treasurer",
+   "title": "Nick Mansour",
+   "party": "Democratic",
+   "summary": "Former CEO of the Arizona College of Nursing, first run for office; wants more of the land trust in index funds and says 6.9% should be the maximum payout.",
+   "body": "Mansour would shift more of the Permanent Land Endowment Trust Fund into stock index portfolios with about 20 to 30% in bonds. He is not opposed to ESA vouchers but wants all non-identifying spending data released.",
+   "record": [
+    "No elected record.",
+    "Says he led the nursing college about eight months; a later lawsuit against the college came years after he left (KJZZ)."
+   ],
+   "supporters_point_to": [
+    "Index-fund approach aims for higher long-term returns for schools.",
+    "Opposes screening out companies over DEI, saying it would exclude 400+ Fortune 500 firms.",
+    "Wants ESA spending transparency."
+   ],
+   "critics_point_to": [
+    "Norton calls the plan 'gambling' with taxpayer money.",
+    "Norton cites lawsuits and a Medicare fraud fine involving the college.",
+    "No public-finance experience in office."
+   ],
+   "stances": {
+    "mo1": [
+     1,
+     "kjzz_treas",
+     ""
+    ],
+    "mo2": [
+     -1,
+     "kjzz_treas",
+     ""
+    ]
+   },
+   "sources": [
+    "kjzz_treas",
+    "ktar_poll"
+   ],
+   "details": {
+    "Race": "State Treasurer",
+    "Party": "Democratic"
+   },
+   "tags": [
+    "State Treasurer",
+    "Democratic"
+   ]
+  },
+  {
+   "id": "norton",
+   "type": "candidate",
+   "race": "State Treasurer",
+   "title": "Elijah Norton",
+   "party": "Republican",
+   "summary": "Insurance company founder and former state GOP treasurer; pledges to divest from 'woke and leftist causes' and sell trust land to grow the fund.",
+   "body": "Norton proposes selling about 1.2 million acres of state trust land near developed areas, which he says would add over $18 billion to the trust and allow a lower payout rate later. He wants new ESA software to curb fraud.",
+   "record": [
+    "No elected office; former Arizona Republican Party treasurer.",
+    "Said on a May 7 radio show he would fire 'politically appointed' staff, which he now denies (KJZZ)."
+   ],
+   "supporters_point_to": [
+    "Business experience running a large insurance company.",
+    "Plan to grow the trust through land sales.",
+    "Focus on ESA fraud prevention."
+   ],
+   "critics_point_to": [
+    "Clients have sued him more than 100 times, per Mansour; he says that's a tiny share of customers.",
+    "DEI divestment could narrow investment options and raise risk, critics say.",
+    "Trails in public polling."
+   ],
+   "stances": {
+    "mo1": [
+     -1,
+     "kjzz_treas",
+     ""
+    ],
+    "mo2": [
+     1,
+     "kjzz_treas",
+     ""
+    ]
+   },
+   "sources": [
+    "kjzz_treas",
+    "newsline_exec",
+    "ktar_poll"
+   ],
+   "details": {
+    "Race": "State Treasurer",
+    "Party": "Republican"
+   },
+   "tags": [
+    "State Treasurer",
+    "Republican"
+   ]
+  },
+  {
+   "id": "leyba-ruiz",
+   "type": "candidate",
+   "race": "Superintendent of Public Instruction",
+   "title": "Teresa Leyba Ruiz",
+   "party": "Democratic",
+   "summary": "Retired Glendale Community College president with 35 years in education; wants an ESA audit and academic oversight.",
+   "body": "Leyba Ruiz would redirect voucher dollars toward public schools, create an office for rural schools, and end Superintendent Horne's 'Empowerment Hotline.'",
+   "record": [
+    "No elected record."
+   ],
+   "supporters_point_to": [
+    "Long classroom and college-leadership career.",
+    "Accountability for about $1 billion a year in ESA spending.",
+    "Rural schools focus."
+   ],
+   "critics_point_to": [
+    "Redirecting ESA money requires the Legislature.",
+    "Supporters of school choice see the plan as a threat to ESAs."
+   ],
+   "stances": {
+    "edu1": [
+     -1,
+     "azpm_supt",
+     "Would redirect voucher dollars to public schools."
+    ],
+    "edu2": [
+     1,
+     "kold_supt",
+     ""
+    ]
+   },
+   "sources": [
+    "kold_supt",
+    "azpm_supt",
+    "ktar_poll"
+   ],
+   "details": {
+    "Race": "Superintendent of Public Instruction",
+    "Party": "Democratic"
+   },
+   "tags": [
+    "Superintendent of Public Instruction",
+    "Democratic"
+   ]
+  },
+  {
+   "id": "yee",
+   "type": "candidate",
+   "race": "Superintendent of Public Instruction",
+   "title": "Kimberly Yee",
+   "party": "Republican",
+   "summary": "Two-term State Treasurer and former legislator who ousted Tom Horne in the primary; defends universal ESAs.",
+   "body": "Yee says she has worked on K-12 policy for 30 years, including early ESA laws. She wants to cut administrative positions to raise teacher pay and bring back home economics and shop classes.",
+   "record": [
+    "State Treasurer since 2019; former state legislator who worked on early ESA laws.",
+    "Says the Legislature, not the department, should define allowable ESA expenses."
+   ],
+   "supporters_point_to": [
+    "Deep experience in state finance and education law.",
+    "Protects parental choice.",
+    "Teacher-pay plan funded by administrative cuts."
+   ],
+   "critics_point_to": [
+    "Argues closer review of ESA student needs would violate privacy law, which critics see as resisting oversight.",
+    "Agrees with Horne that DEI initiatives distract from merit."
+   ],
+   "stances": {
+    "edu1": [
+     1,
+     "azpm_supt",
+     ""
+    ],
+    "edu2": [
+     -1,
+     "kold_supt",
+     "Cites student privacy against added review."
+    ],
+    "dei1": [
+     1,
+     "azpm_supt",
+     ""
+    ]
+   },
+   "sources": [
+    "kold_supt",
+    "azpm_supt",
+    "ktar_poll"
+   ],
+   "details": {
+    "Race": "Superintendent of Public Instruction",
+    "Party": "Republican"
+   },
+   "tags": [
+    "Superintendent of Public Instruction",
+    "Republican"
+   ]
+  },
+  {
+   "id": "matlock",
+   "type": "candidate",
+   "race": "State Mine Inspector",
+   "title": "Brian Matlock",
+   "party": "Democratic",
+   "summary": "Engineer and mining project manager; wants a new health and safety model for the office.",
+   "body": "Matlock says the incumbent lacks the statutory requirement of direct operational experience at a mine, and wants clear safety policies and community help locating abandoned mines.",
+   "record": [
+    "No elected record."
+   ],
+   "supporters_point_to": [
+    "Safety-process focus."
+   ],
+   "critics_point_to": [
+    "Presmyk disputes his level of mining experience."
+   ],
+   "stances": {},
+   "sources": [
+    "kjzz_mine"
+   ],
+   "details": {
+    "Race": "State Mine Inspector",
+    "Party": "Democratic"
+   },
+   "tags": [
+    "State Mine Inspector",
+    "Democratic"
+   ]
+  },
+  {
+   "id": "presmyk",
+   "type": "candidate",
+   "race": "State Mine Inspector",
+   "title": "Walter 'Les' Presmyk",
+   "party": "Republican",
+   "summary": "Appointed incumbent and former SRP mining engineer; says the office has secured about 11,000 abandoned mines.",
+   "body": "Gov. Hobbs appointed Presmyk in 2025 after Paul Marsh resigned. He wants four more years to finish projects underway.",
+   "record": [
+    "Appointed incumbent since 2025."
+   ],
+   "supporters_point_to": [
+    "Decades in Arizona mining; continuity."
+   ],
+   "critics_point_to": [
+    "Received contributions from Resolution Copper and Arizona Sonoran Copper officials; Matlock disputes his experience claims."
+   ],
+   "stances": {},
+   "sources": [
+    "kjzz_mine"
+   ],
+   "details": {
+    "Race": "State Mine Inspector",
+    "Party": "Republican"
+   },
+   "tags": [
+    "State Mine Inspector",
+    "Republican"
+   ]
+  },
+  {
+   "id": "pratte",
+   "type": "candidate",
+   "race": "Corporation Commission (vote for 2)",
+   "title": "Clara Pratte",
+   "party": "Democratic",
+   "summary": "Navajo Nation-raised co-founder of Navajo Power; wants to curb rate increases and shield homes from data center costs.",
+   "body": "Pratte led the Navajo Nation's Washington office and chaired the DNC Native Caucus. She wants field hearings back in rural areas and commissioners attending rate hearings.",
+   "record": [
+    "No elected record."
+   ],
+   "supporters_point_to": [
+    "Renewable energy business experience.",
+    "Rural outreach plan."
+   ],
+   "critics_point_to": [
+    "Ties to the Biden campaign and administration; opponents see a partisan agenda."
+   ],
+   "stances": {
+    "en1": [
+     1,
+     "kjzz_cc",
+     ""
+    ],
+    "en3": [
+     1,
+     "kjzz_cc",
+     ""
+    ]
+   },
+   "sources": [
+    "kjzz_cc",
+    "kjzz_cc_debate"
+   ],
+   "details": {
+    "Race": "Corporation Commission (vote for 2)",
+    "Party": "Democratic"
+   },
+   "tags": [
+    "Corporation Commission (vote for 2)",
+    "Democratic"
+   ]
+  },
+  {
+   "id": "hill",
+   "type": "candidate",
+   "race": "Corporation Commission (vote for 2)",
+   "title": "Jonathon Hill",
+   "party": "Democratic",
+   "summary": "ASU spacecraft engineer and geologist; proposes pausing data center development until impacts are understood.",
+   "body": "Hill ran for the commission in 2022. He blames the commission for rising APS profits and bills and wants more help for cities.",
+   "record": [
+    "No elected record."
+   ],
+   "supporters_point_to": [
+    "Science background.",
+    "Strong stance on data center costs."
+   ],
+   "critics_point_to": [
+    "A pause could cost jobs and investment, opponents say."
+   ],
+   "stances": {
+    "en1": [
+     1,
+     "kjzz_cc_debate",
+     ""
+    ],
+    "en2": [
+     1,
+     "kjzz_cc_debate",
+     ""
+    ],
+    "en3": [
+     1,
+     "kjzz_cc",
+     ""
+    ]
+   },
+   "sources": [
+    "kjzz_cc",
+    "kjzz_cc_debate"
+   ],
+   "details": {
+    "Race": "Corporation Commission (vote for 2)",
+    "Party": "Democratic"
+   },
+   "tags": [
+    "Corporation Commission (vote for 2)",
+    "Democratic"
+   ]
+  },
+  {
+   "id": "thompson",
+   "type": "candidate",
+   "race": "Corporation Commission (vote for 2)",
+   "title": "Kevin Thompson",
+   "party": "Republican",
+   "summary": "Incumbent and former commission chair; helped remove a renewable energy requirement and says regulating data centers isn't the commission's job.",
+   "body": "Thompson, an Air Force veteran and former Mesa councilman, once lobbied for Southwest Gas and runs a consulting firm. He acknowledged a data center is one of his clients (Energy and Policy Institute, cited by KJZZ).",
+   "record": [
+    "Elected 2022; former chair.",
+    "Helped repeal the renewable energy standard."
+   ],
+   "supporters_point_to": [
+    "Says recent rate cases made large customers pay their share.",
+    "Experience on the commission."
+   ],
+   "critics_point_to": [
+    "Data center client raises conflict-of-interest concerns."
+   ],
+   "stances": {
+    "en1": [
+     -1,
+     "kjzz_cc_debate",
+     "Says it is not the commission's job."
+    ],
+    "en2": [
+     -1,
+     "kjzz_cc_debate",
+     ""
+    ],
+    "en3": [
+     -1,
+     "kjzz_cc",
+     ""
+    ]
+   },
+   "sources": [
+    "kjzz_cc",
+    "kjzz_cc_debate"
+   ],
+   "details": {
+    "Race": "Corporation Commission (vote for 2)",
+    "Party": "Republican"
+   },
+   "tags": [
+    "Corporation Commission (vote for 2)",
+    "Republican"
+   ]
+  },
+  {
+   "id": "heap",
+   "type": "candidate",
+   "race": "Corporation Commission (vote for 2)",
+   "title": "Ralph Heap",
+   "party": "Republican",
+   "summary": "Retired orthopedic surgeon and first-term Freedom Caucus legislator; wants more coal power.",
+   "body": "Heap succeeded his son Justin Heap, now Maricopa County Recorder, in the House. He is under investigation by the Clean Elections Commission over alleged campaign-finance violations.",
+   "record": [
+    "First-term state representative."
+   ],
+   "supporters_point_to": [
+    "Favors keeping baseload coal power."
+   ],
+   "critics_point_to": [
+    "Clean Elections investigation; coal stance runs against renewable trends."
+   ],
+   "stances": {
+    "en3": [
+     -1,
+     "kjzz_cc",
+     "Wants more coal."
+    ]
+   },
+   "sources": [
+    "kjzz_cc"
+   ],
+   "details": {
+    "Race": "Corporation Commission (vote for 2)",
+    "Party": "Republican"
+   },
+   "tags": [
+    "Corporation Commission (vote for 2)",
+    "Republican"
+   ]
+  },
+  {
+   "id": "cease",
+   "type": "candidate",
+   "race": "Corporation Commission (vote for 2)",
+   "title": "Mike Cease",
+   "party": "Green",
+   "summary": "Green Party nominee. We found no published platform.",
+   "body": "No campaign materials or interviews found.",
+   "record": [
+    "No public record found."
+   ],
+   "supporters_point_to": [
+    "Third-party choice."
+   ],
+   "critics_point_to": [
+    "No platform found to evaluate."
+   ],
+   "stances": {},
+   "sources": [
+    "ballot_photo"
+   ],
+   "details": {
+    "Race": "Corporation Commission (vote for 2)",
+    "Party": "Green"
+   },
+   "tags": [
+    "Corporation Commission (vote for 2)",
+    "Green"
+   ]
+  },
+  {
+   "id": "soto",
+   "type": "candidate",
+   "race": "State Senate, LD17",
+   "title": "Edgar Soto",
+   "party": "Democratic",
+   "summary": "Marine Corps veteran and Pima Community College vice president running on lowering costs, public schools and public safety.",
+   "body": "Soto is a fifth-generation Tucsonan with about 30 years in education. He opposes new data center incentives and Prop 144, supports a path to citizenship for people without criminal records, and says cities should decide on traffic cameras (Prop 319).",
+   "record": [
+    "No legislative record."
+   ],
+   "supporters_point_to": [
+    "Education leadership and military service.",
+    "Backs local police while opposing Prop 144."
+   ],
+   "critics_point_to": [
+    "No legislative record to judge.",
+    "Opponents question his support for a path to citizenship."
+   ],
+   "stances": {
+    "en1": [
+     1,
+     "substack_ld17",
+     "Opposes new data center incentives."
+    ],
+    "el1": [
+     -1,
+     "substack_ld17",
+     ""
+    ],
+    "im2": [
+     1,
+     "substack_ld17",
+     ""
+    ],
+    "ps1": [
+     1,
+     "kjzz_ld17s",
+     "Lists supporting public safety as a priority."
+    ]
+   },
+   "sources": [
+    "kjzz_ld17s",
+    "substack_ld17"
+   ],
+   "details": {
+    "Race": "State Senate, LD17",
+    "Party": "Democratic"
+   },
+   "tags": [
+    "State Senate, LD17",
+    "Democratic"
+   ]
+  },
+  {
+   "id": "king",
+   "type": "candidate",
+   "race": "State Senate, LD17",
+   "title": "Christopher King",
+   "party": "Republican",
+   "summary": "Vail school board member and Air Force veteran; strong school choice supporter who was a plaintiff in the 2020 'Kraken' election lawsuit.",
+   "body": "King works as a substitute teacher and has served on the Vail Unified board since 2021. He opposes tax increases, supports vouchers, opposes elective abortion and the U.S. Department of Education, and is endorsed by police groups and the Arizona Chamber of Commerce. He now says he is confident in the 2020 count.",
+   "record": [
+    "No legislative record; Vail Unified board since 2021.",
+    "Plaintiff in the unsuccessful 2020 'Kraken' lawsuit (KJZZ)."
+   ],
+   "supporters_point_to": [
+    "School board experience in a high-performing district.",
+    "Endorsed by police groups and the Arizona Chamber."
+   ],
+   "critics_point_to": [
+    "Kraken lawsuit involvement.",
+    "Opposes elective abortion; a Planned Parenthood mailer says he opposes rape and incest exceptions (cited to his iVoterGuide answers; not independently verified)."
+   ],
+   "stances": {
+    "edu1": [
+     1,
+     "substack_ld17",
+     "Strongly supports vouchers."
+    ],
+    "rr1": [
+     -1,
+     "substack_ld17",
+     "Opposes elective abortion."
+    ]
+   },
+   "sources": [
+    "kjzz_ld17s",
+    "substack_ld17"
+   ],
+   "details": {
+    "Race": "State Senate, LD17",
+    "Party": "Republican"
+   },
+   "tags": [
+    "State Senate, LD17",
+    "Republican"
+   ]
+  },
+  {
+   "id": "volk",
+   "type": "candidate",
+   "race": "State House, LD17 (vote for 2)",
+   "title": "Kevin Volk",
+   "party": "Democratic",
+   "summary": "First-term representative, former teacher and small-business owner; sponsored data center and ESA accountability bills.",
+   "body": "Volk flipped a House seat in 2024. A 2026 bill he sponsored, signed by Hobbs, raises penalties for lending a vehicle to someone required to use an ignition interlock when it leads to injury or death, inspired by his late running mate John McLean.",
+   "record": [
+    "Signed into law: ignition-interlock lending penalties (KJZZ).",
+    "Sponsored ESA guardrails and a bill to stop passing data center energy costs to customers; neither advanced (debate statements).",
+    "Supports the Rural Groundwater Management Act and renewing Prop 123 (Tucson Spotlight)."
+   ],
+   "supporters_point_to": [
+    "Bipartisan-ranked lawmaker with a signed public-safety bill.",
+    "Housing plan focused on supply and lower construction costs.",
+    "Water and education priorities."
+   ],
+   "critics_point_to": [
+    "Key bills did not advance in the Republican Legislature.",
+    "Opponents say his votes align with Hobbs' vetoes."
+   ],
+   "stances": {
+    "cost2": [
+     1,
+     "spotlight_volk",
+     "Streamline government processes to build more homes."
+    ],
+    "wa1": [
+     1,
+     "spotlight_volk",
+     ""
+    ],
+    "edu2": [
+     1,
+     "substack_ld17",
+     "Sponsored ESA guardrails."
+    ],
+    "en1": [
+     1,
+     "substack_ld17",
+     ""
+    ],
+    "el1": [
+     -1,
+     "substack_ld17",
+     ""
+    ],
+    "dei1": [
+     -1,
+     "substack_ld17",
+     ""
+    ],
+    "ps1": [
+     1,
+     "substack_ld17",
+     "Supports local law enforcement."
+    ]
+   },
+   "sources": [
+    "kjzz_ld17h",
+    "spotlight_volk",
+    "substack_ld17"
+   ],
+   "details": {
+    "Race": "State House, LD17 (vote for 2)",
+    "Party": "Democratic"
+   },
+   "tags": [
+    "State House, LD17 (vote for 2)",
+    "Democratic"
+   ]
+  },
+  {
+   "id": "lyon",
+   "type": "candidate",
+   "race": "State House, LD17 (vote for 2)",
+   "title": "Hollace 'Holly' Lyon",
+   "party": "Democratic",
+   "summary": "Retired Air Force colonel (NATO, Pentagon), former math teacher, chaired local school bond campaigns.",
+   "body": "Lyon served as a judicial nominating commissioner. Priorities: fully funding public schools, health care access and drug prices, water security, and ending voucher fraud. She opposes Prop 142 and data center incentives.",
+   "record": [
+    "No legislative record."
+   ],
+   "supporters_point_to": [
+    "Military and classroom experience; community fundraising record.",
+    "Health care affordability focus."
+   ],
+   "critics_point_to": [
+    "No legislative record to judge.",
+    "Supports school bonds and overrides that raise property taxes, a concern for some voters."
+   ],
+   "stances": {
+    "en1": [
+     1,
+     "substack_ld17",
+     ""
+    ],
+    "dei1": [
+     -1,
+     "substack_ld17",
+     ""
+    ]
+   },
+   "sources": [
+    "kjzz_ld17h",
+    "substack_ld17"
+   ],
+   "details": {
+    "Race": "State House, LD17 (vote for 2)",
+    "Party": "Democratic"
+   },
+   "tags": [
+    "State House, LD17 (vote for 2)",
+    "Democratic"
+   ]
+  },
+  {
+   "id": "winchester",
+   "type": "candidate",
+   "race": "State House, LD17 (vote for 2)",
+   "title": "John Winchester",
+   "party": "Republican",
+   "summary": "ASU government relations director and minister; supports school choice, Props 142 and 144, and making data centers pay for water and power.",
+   "body": "Winchester lists 'growing the economy and creating safe communities' as priorities. He wants civics required in schools, a state education audit, desalination, police funding, and opposes 'housing first' homelessness models.",
+   "record": [
+    "No legislative record."
+   ],
+   "supporters_point_to": [
+    "Community board service.",
+    "Agrees with Democrats that data centers should pay their own way."
+   ],
+   "critics_point_to": [
+    "Planned Parenthood mailer says he supports defunding Planned Parenthood (cited to a Freedom Voter Guide; not independently verified)."
+   ],
+   "stances": {
+    "edu1": [
+     1,
+     "substack_ld17",
+     "Won't dismantle ESA."
+    ],
+    "wa2": [
+     1,
+     "substack_ld17",
+     "Supports desalination."
+    ],
+    "en1": [
+     1,
+     "substack_ld17",
+     ""
+    ],
+    "el1": [
+     1,
+     "substack_ld17",
+     ""
+    ],
+    "dei1": [
+     1,
+     "substack_ld17",
+     ""
+    ],
+    "ps1": [
+     1,
+     "substack_ld17",
+     ""
+    ]
+   },
+   "sources": [
+    "kjzz_ld17h",
+    "substack_ld17"
+   ],
+   "details": {
+    "Race": "State House, LD17 (vote for 2)",
+    "Party": "Republican"
+   },
+   "tags": [
+    "State House, LD17 (vote for 2)",
+    "Republican"
+   ]
+  },
+  {
+   "id": "keshel",
+   "type": "candidate",
+   "race": "State House, LD17 (vote for 2)",
+   "title": "Rachel 'Jones' Keshel",
+   "party": "Republican",
+   "summary": "Two-term incumbent and Freedom Caucus member; sponsored HB 2364 on mailed abortion pills and supports Prop 142.",
+   "body": "Keshel is a former UPS business executive. In 2026 Hobbs signed her bill strengthening the Address Confidentiality Program and vetoed two others, including prenatal-development science standards.",
+   "record": [
+    "Sponsored HB 2364 (2026): felony penalties for mailing abortion drugs, a misdemeanor for knowingly receiving them by mail (Arizona Legislature).",
+    "Signed into law: Address Confidentiality Program improvements (KJZZ).",
+    "Two bills vetoed in 2026, including fetal-development science standards (KJZZ)."
+   ],
+   "supporters_point_to": [
+    "Experienced legislator with a signed bill protecting abuse survivors.",
+    "Says teachers need more pay and existing funds are poorly distributed."
+   ],
+   "critics_point_to": [
+    "HB 2364 would criminalize mailing or receiving abortion medication.",
+    "Freedom Caucus positions on elections and social issues."
+   ],
+   "stances": {
+    "rr1": [
+     -1,
+     "azleg_hb2364",
+     ""
+    ],
+    "dei1": [
+     1,
+     "substack_ld17",
+     ""
+    ]
+   },
+   "sources": [
+    "kjzz_ld17h",
+    "azleg_hb2364",
+    "substack_ld17"
+   ],
+   "details": {
+    "Race": "State House, LD17 (vote for 2)",
+    "Party": "Republican"
+   },
+   "tags": [
+    "State House, LD17 (vote for 2)",
+    "Republican"
+   ]
+  },
+  {
+   "id": "giacomino",
+   "type": "candidate",
+   "race": "Clerk of the Superior Court",
+   "title": "James W. Giacomino",
+   "party": "Democratic",
+   "summary": "Unopposed on your ballot. Write-ins allowed.",
+   "body": "The clerk keeps court records and handles filings and fees. Only one candidate filed.",
+   "record": [
+    "Unopposed."
+   ],
+   "supporters_point_to": [],
+   "critics_point_to": [],
+   "stances": {},
+   "sources": [
+    "ballot_photo"
+   ],
+   "details": {
+    "Race": "Clerk of the Superior Court",
+    "Party": "Democratic"
+   },
+   "tags": [
+    "Clerk of the Superior Court",
+    "Democratic"
+   ]
+  },
+  {
+   "id": "foster",
+   "type": "candidate",
+   "race": "Justice of the Peace, Precinct 8",
+   "title": "Kristel Ann Foster",
+   "party": "Democratic",
+   "summary": "Sitting Pima County Justice of the Peace.",
+   "body": "Justices of the peace handle small claims, evictions, misdemeanors and civil cases up to set limits. See the court's bio page for her background.",
+   "record": [
+    "Current JP (Pima County bio)."
+   ],
+   "supporters_point_to": [
+    "Experience on the bench."
+   ],
+   "critics_point_to": [
+    "No public evaluation found."
+   ],
+   "stances": {},
+   "sources": [
+    "jp_foster"
+   ],
+   "details": {
+    "Race": "Justice of the Peace, Precinct 8",
+    "Party": "Democratic"
+   },
+   "tags": [
+    "Justice of the Peace, Precinct 8",
+    "Democratic"
+   ]
+  },
+  {
+   "id": "parven",
+   "type": "candidate",
+   "race": "Justice of the Peace, Precinct 8",
+   "title": "William Parven",
+   "party": "Republican",
+   "summary": "Republican challenger. We found no published platform.",
+   "body": "No campaign materials or interviews found.",
+   "record": [
+    "No public record found."
+   ],
+   "supporters_point_to": [
+    "Offers a choice in the race."
+   ],
+   "critics_point_to": [
+    "No platform found to evaluate."
+   ],
+   "stances": {},
+   "sources": [
+    "ballot_photo"
+   ],
+   "details": {
+    "Race": "Justice of the Peace, Precinct 8",
+    "Party": "Republican"
+   },
+   "tags": [
+    "Justice of the Peace, Precinct 8",
+    "Republican"
+   ]
+  },
+  {
+   "id": "fernandez",
+   "type": "candidate",
+   "race": "TUSD Governing Board (vote for 2)",
+   "title": "Skye Fernandez",
+   "party": "Nonpartisan",
+   "summary": "Challenger.",
+   "body": "School board races are nonpartisan. We found limited published platforms; check local candidate forums and the Ballot Brief listing.",
+   "record": [
+    "Not an incumbent."
+   ],
+   "supporters_point_to": [],
+   "critics_point_to": [],
+   "stances": {},
+   "sources": [
+    "ballotbrief_tusd"
+   ],
+   "details": {
+    "Race": "TUSD Governing Board (vote for 2)",
+    "Party": "Nonpartisan"
+   },
+   "tags": [
+    "TUSD Governing Board (vote for 2)",
+    "Nonpartisan"
+   ]
+  },
+  {
+   "id": "rhodes",
+   "type": "candidate",
+   "race": "TUSD Governing Board (vote for 2)",
+   "title": "Tre'Davon Rhodes",
+   "party": "Nonpartisan",
+   "summary": "Challenger. The youngest candidate in the race; see KOLD's interview.",
+   "body": "School board races are nonpartisan. We found limited published platforms; check local candidate forums and the Ballot Brief listing.",
+   "record": [
+    "Not an incumbent."
+   ],
+   "supporters_point_to": [],
+   "critics_point_to": [],
+   "stances": {},
+   "sources": [
+    "ballotbrief_tusd",
+    "kold_rhodes"
+   ],
+   "details": {
+    "Race": "TUSD Governing Board (vote for 2)",
+    "Party": "Nonpartisan"
+   },
+   "tags": [
+    "TUSD Governing Board (vote for 2)",
+    "Nonpartisan"
+   ]
+  },
+  {
+   "id": "romero",
+   "type": "candidate",
+   "race": "TUSD Governing Board (vote for 2)",
+   "title": "Val Romero",
+   "party": "Nonpartisan",
+   "summary": "Incumbent board member.",
+   "body": "School board races are nonpartisan. We found limited published platforms; check local candidate forums and the Ballot Brief listing.",
+   "record": [
+    "Incumbent, term ends Dec 31, 2026."
+   ],
+   "supporters_point_to": [],
+   "critics_point_to": [],
+   "stances": {},
+   "sources": [
+    "ballotbrief_tusd"
+   ],
+   "details": {
+    "Race": "TUSD Governing Board (vote for 2)",
+    "Party": "Nonpartisan"
+   },
+   "tags": [
+    "TUSD Governing Board (vote for 2)",
+    "Nonpartisan"
+   ]
+  },
+  {
+   "id": "acosta-ruiz",
+   "type": "candidate",
+   "race": "TUSD Governing Board (vote for 2)",
+   "title": "Pilar Acosta Ruiz",
+   "party": "Nonpartisan",
+   "summary": "Challenger.",
+   "body": "School board races are nonpartisan. We found limited published platforms; check local candidate forums and the Ballot Brief listing.",
+   "record": [
+    "Not an incumbent."
+   ],
+   "supporters_point_to": [],
+   "critics_point_to": [],
+   "stances": {},
+   "sources": [
+    "ballotbrief_tusd"
+   ],
+   "details": {
+    "Race": "TUSD Governing Board (vote for 2)",
+    "Party": "Nonpartisan"
+   },
+   "tags": [
+    "TUSD Governing Board (vote for 2)",
+    "Nonpartisan"
+   ]
+  },
+  {
+   "id": "eckstrom",
+   "type": "candidate",
+   "race": "TUSD Governing Board (vote for 2)",
+   "title": "Jennifer Eckstrom",
+   "party": "Nonpartisan",
+   "summary": "Incumbent board member.",
+   "body": "School board races are nonpartisan. We found limited published platforms; check local candidate forums and the Ballot Brief listing.",
+   "record": [
+    "Incumbent, term ends Dec 31, 2026."
+   ],
+   "supporters_point_to": [],
+   "critics_point_to": [],
+   "stances": {},
+   "sources": [
+    "ballotbrief_tusd"
+   ],
+   "details": {
+    "Race": "TUSD Governing Board (vote for 2)",
+    "Party": "Nonpartisan"
+   },
+   "tags": [
+    "TUSD Governing Board (vote for 2)",
+    "Nonpartisan"
+   ]
+  },
+  {
+   "id": "prop-141",
+   "type": "proposition",
+   "number": 141,
+   "title": "Prop 141: Ban mileage-based taxes",
+   "scope": "Statewide (constitutional amendment)",
+   "summary": "Bans taxes or fees based on miles driven, and laws that monitor or limit miles driven without consent.",
+   "body": "YES: Adds a constitutional ban on per-mile taxes and on monitoring or limiting miles driven without consent (exceptions for interstate commercial vehicles and government vehicles). NO: Keeps current constitutional language on taxation.",
+   "yes_means": "Adds a constitutional ban on per-mile taxes and on monitoring or limiting miles driven without consent (exceptions for interstate commercial vehicles and government vehicles).",
+   "no_means": "Keeps current constitutional language on taxation.",
+   "how_it_got_here": "Referred by the Republican-led Legislature (SCR 1004, 2025).",
+   "arguments_for": [
+    "Protects driver privacy.",
+    "A per-mile tax would hit rural residents, commuters and truckers hardest (Arizona Free Enterprise Club, Arizona Trucking Association)."
+   ],
+   "arguments_against": [
+    "Closes off a future road-funding option as gas-tax revenue falls with electric vehicles (Southern Arizona Leadership Council).",
+    "Would block even voluntary pilot programs; opponents cite about $68 billion in unmet transportation needs."
+   ],
+   "fiscal": "No direct cost stated.",
+   "sources": [
+    "sos_lang",
+    "luminaria_props"
+   ],
+   "details": {
+    "Scope": "Statewide (constitutional amendment)",
+    "How it got here": "Referred by the Republican-led Legislature (SCR 1004, 2025).",
+    "Fiscal": "No direct cost stated."
+   },
+   "tags": [
+    "proposition",
+    "Statewide (constitutional amendment)",
+    "transportation",
+    "taxes"
+   ]
+  },
+  {
+   "id": "prop-142",
+   "type": "proposition",
+   "number": 142,
+   "title": "Prop 142: Expand ban on preferential treatment (DEI limits)",
+   "scope": "Statewide (constitutional amendment)",
+   "summary": "Adds DEI limits to the existing constitutional ban on race-based preferences in public jobs, schools and contracts.",
+   "body": "YES: Bans compelled support for race-based preferences, public spending on positions that promote them, race-based discipline practices, and required DEI statements; includes exceptions for health services and legal reasons. NO: Keeps the current constitutional ban on preferential treatment unchanged.",
+   "yes_means": "Bans compelled support for race-based preferences, public spending on positions that promote them, race-based discipline practices, and required DEI statements; includes exceptions for health services and legal reasons.",
+   "no_means": "Keeps the current constitutional ban on preferential treatment unchanged.",
+   "how_it_got_here": "Referred by the Legislature (HCR 2044, 2026).",
+   "arguments_for": [
+    "Guarantees equal treatment and closes a federal-program loophole (Goldwater Institute, Arizona Free Enterprise Club, Heritage Action)."
+   ],
+   "arguments_against": [
+    "Overbroad; could chill lawful programs and classroom discussion; First Amendment concerns (ACLU, League of Women Voters).",
+    "The Legislature could add restricted practices later without a vote."
+   ],
+   "fiscal": "No fiscal impact stated.",
+   "sources": [
+    "sos_lang",
+    "luminaria_props",
+    "aclu_props"
+   ],
+   "details": {
+    "Scope": "Statewide (constitutional amendment)",
+    "How it got here": "Referred by the Legislature (HCR 2044, 2026).",
+    "Fiscal": "No fiscal impact stated."
+   },
+   "tags": [
+    "proposition",
+    "Statewide (constitutional amendment)",
+    "dei",
+    "civil rights",
+    "education"
+   ]
+  },
+  {
+   "id": "prop-144",
+   "type": "proposition",
+   "number": 144,
+   "title": "Prop 144: Voter ID for all voters, election rule changes",
+   "scope": "Statewide (constitutional amendment)",
+   "summary": "Requires government-issued ID to vote, including by mail; adds Election Day on-site tabulation, a foreign-money ban and a new court standard for election laws. Effective 2028.",
+   "body": "YES: Requires government-issued ID for every voter including mail voters; offers on-site tabulation on Election Day; bans foreign-national election spending; sets a 'rational basis' standard that may make election laws harder to challenge; requires the Legislature to fund it. NO: Keeps current constitutional election provisions.",
+   "yes_means": "Requires government-issued ID for every voter including mail voters; offers on-site tabulation on Election Day; bans foreign-national election spending; sets a 'rational basis' standard that may make election laws harder to challenge; requires the Legislature to fund it.",
+   "no_means": "Keeps current constitutional election provisions.",
+   "how_it_got_here": "Referred by the Legislature (HCR 2001, 2026); sponsored by Rep. Alexander Kolodin, now running for Secretary of State.",
+   "arguments_for": [
+    "Locks in voter ID and citizen-only voting, speeds results, closes a foreign-money gap (Arizona Free Enterprise Club, Kolodin)."
+   ],
+   "arguments_against": [
+    "Burdens mail voters (about 80% of Arizonans) and people without government ID; could enable future limits on early voting (League of Women Voters, ACLU, Common Cause, Mi Familia Vota).",
+    "Adds work for county election offices."
+   ],
+   "fiscal": "Legislature must appropriate implementation money.",
+   "sources": [
+    "sos_lang",
+    "luminaria_props",
+    "aclu_props"
+   ],
+   "details": {
+    "Scope": "Statewide (constitutional amendment)",
+    "How it got here": "Referred by the Legislature (HCR 2001, 2026); sponsored by Rep. Alexander Kolodin, now running for Secretary of State.",
+    "Fiscal": "Legislature must appropriate implementation money."
+   },
+   "tags": [
+    "proposition",
+    "Statewide (constitutional amendment)",
+    "elections",
+    "voting"
+   ]
+  },
+  {
+   "id": "prop-316",
+   "type": "proposition",
+   "number": 316,
+   "title": "Prop 316: Cap local grocery taxes at 2%",
+   "scope": "Statewide (statute)",
+   "summary": "Freezes new or higher city grocery taxes through June 2027, then requires voter approval and a 2% cap.",
+   "body": "YES: Retroactively bars new or increased local grocery taxes from July 1, 2025 to June 30, 2027; afterward requires voter approval and caps new or increased rates at 2%. NO: Keeps current local taxing rules.",
+   "yes_means": "Retroactively bars new or increased local grocery taxes from July 1, 2025 to June 30, 2027; afterward requires voter approval and caps new or increased rates at 2%.",
+   "no_means": "Keeps current local taxing rules.",
+   "how_it_got_here": "Referred by the Legislature (HCR 2021, 2025); a compromise after Hobbs vetoed a full ban in 2023.",
+   "arguments_for": [
+    "Eases cost of living; compromise backed by the League of Arizona Cities and Towns."
+   ],
+   "arguments_against": [
+    "Limits local control and could hurt small towns that rely on grocery taxes (Bisbee mayor, Civic Engagement Beyond Voting)."
+   ],
+   "fiscal": "Tucson, Marana, Oro Valley and Sahuarita don't tax groceries, so the immediate local effect is small.",
+   "sources": [
+    "sos_lang",
+    "luminaria_props"
+   ],
+   "details": {
+    "Scope": "Statewide (statute)",
+    "How it got here": "Referred by the Legislature (HCR 2021, 2025); a compromise after Hobbs vetoed a full ban in 2023.",
+    "Fiscal": "Tucson, Marana, Oro Valley and Sahuarita don't tax groceries, so the immediate local effect is small."
+   },
+   "tags": [
+    "proposition",
+    "Statewide (statute)",
+    "taxes",
+    "cost of living"
+   ]
+  },
+  {
+   "id": "prop-317",
+   "type": "proposition",
+   "number": 317,
+   "title": "Prop 317: Declare drug cartels terrorist organizations",
+   "scope": "Statewide (statute)",
+   "summary": "Declares drug cartels terrorist organizations and directs the state Homeland Security department to act. Creates no new crimes.",
+   "body": "YES: Declares cartels terrorist organizations, defines 'drug cartel' as an association engaged in human smuggling, drug trafficking or terrorism, and says the measure doesn't support asylum claims. NO: Keeps current terrorism and homeland security laws.",
+   "yes_means": "Declares cartels terrorist organizations, defines 'drug cartel' as an association engaged in human smuggling, drug trafficking or terrorism, and says the measure doesn't support asylum claims.",
+   "no_means": "Keeps current terrorism and homeland security laws.",
+   "how_it_got_here": "Referred by the Legislature (HCR 2055, 2025), pushed by House Speaker Steve Montenegro after Hobbs vetoed a 2023 version.",
+   "arguments_for": [
+    "Gives law enforcement a tool against border criminals (Montenegro)."
+   ],
+   "arguments_against": [
+    "Definition broad enough to reach low-level offenders, people with addiction and migrants (ACLU).",
+    "Little practical effect; could be cited to justify deploying troops."
+   ],
+   "fiscal": "No fiscal impact stated.",
+   "sources": [
+    "sos_lang",
+    "luminaria_props",
+    "aclu_props"
+   ],
+   "details": {
+    "Scope": "Statewide (statute)",
+    "How it got here": "Referred by the Legislature (HCR 2055, 2025), pushed by House Speaker Steve Montenegro after Hobbs vetoed a 2023 version.",
+    "Fiscal": "No fiscal impact stated."
+   },
+   "tags": [
+    "proposition",
+    "Statewide (statute)",
+    "border",
+    "immigration",
+    "public safety"
+   ]
+  },
+  {
+   "id": "prop-318",
+   "type": "proposition",
+   "number": 318,
+   "title": "Prop 318: School sports teams by sex at birth",
+   "scope": "Statewide (statute)",
+   "summary": "Requires all schools, public and private, and athletic associations to set teams by sex at birth, and limits locker rooms and restrooms at athletic events.",
+   "body": "YES: Extends the sports rule to private schools and associations; bars use of private spaces not designated for a person's sex; defines sex by the original birth certificate; lets athletes sue violators. NO: Keeps current law, which already applies the team rule to public schools and those competing against them.",
+   "yes_means": "Extends the sports rule to private schools and associations; bars use of private spaces not designated for a person's sex; defines sex by the original birth certificate; lets athletes sue violators.",
+   "no_means": "Keeps current law, which already applies the team rule to public schools and those competing against them.",
+   "how_it_got_here": "Referred by the Legislature (HCR 2003, 2026).",
+   "arguments_for": [
+    "Protects girls' sports and privacy (supporters)."
+   ],
+   "arguments_against": [
+    "Applies regardless of age, sport or level; invites lawsuits and invasive questioning; associations, not politicians, should set eligibility (ACLU)."
+   ],
+   "fiscal": "No fiscal impact stated.",
+   "sources": [
+    "sos_lang",
+    "ktar_props",
+    "aclu_props"
+   ],
+   "details": {
+    "Scope": "Statewide (statute)",
+    "How it got here": "Referred by the Legislature (HCR 2003, 2026).",
+    "Fiscal": "No fiscal impact stated."
+   },
+   "tags": [
+    "proposition",
+    "Statewide (statute)",
+    "education",
+    "civil rights"
+   ]
+  },
+  {
+   "id": "prop-319",
+   "type": "proposition",
+   "number": 319,
+   "title": "Prop 319: Limit speed and red-light cameras",
+   "scope": "Statewide (statute)",
+   "summary": "Bans photo enforcement unless contracted by Dec 31, 2026; existing systems need voter approval and a new vote every 10 years.",
+   "body": "YES: Bars photo enforcement without a contract by Dec 31, 2026; requires local voter approval at the next general election and every 10 years. NO: Keeps current photo enforcement law.",
+   "yes_means": "Bars photo enforcement without a contract by Dec 31, 2026; requires local voter approval at the next general election and every 10 years.",
+   "no_means": "Keeps current photo enforcement law.",
+   "how_it_got_here": "Referred by the Legislature (SCR 1004, 2026), introduced by Sen. Wendy Rogers.",
+   "arguments_for": [
+    "Cameras are a privacy-invading revenue source run by private companies."
+   ],
+   "arguments_against": [
+    "Removes a proven safety tool; doesn't separate speed from red-light cameras (AAA Arizona, Arizona Public Health Association)."
+   ],
+   "fiscal": "Tucson already banned cameras by voter vote, so little local effect.",
+   "sources": [
+    "sos_lang",
+    "luminaria_props"
+   ],
+   "details": {
+    "Scope": "Statewide (statute)",
+    "How it got here": "Referred by the Legislature (SCR 1004, 2026), introduced by Sen. Wendy Rogers.",
+    "Fiscal": "Tucson already banned cameras by voter vote, so little local effect."
+   },
+   "tags": [
+    "proposition",
+    "Statewide (statute)",
+    "public safety",
+    "transportation"
+   ]
+  },
+  {
+   "id": "prop-320",
+   "type": "proposition",
+   "number": 320,
+   "title": "Prop 320: 60% of school district spending on instruction",
+   "scope": "Statewide (statute)",
+   "summary": "Requires large districts, and any district in Maricopa, Pima or Pinal counties, to spend at least 60% of operating money on direct instruction, with funding penalties.",
+   "body": "YES: Requires covered districts to reach 60% direct-instruction spending (as defined by the Auditor General), rising at least 0.5 points a year, and cuts Classroom Site Fund money 25% a year for non-compliant districts, with limited waivers. NO: Keeps current school budget rules.",
+   "yes_means": "Requires covered districts to reach 60% direct-instruction spending (as defined by the Auditor General), rising at least 0.5 points a year, and cuts Classroom Site Fund money 25% a year for non-compliant districts, with limited waivers.",
+   "no_means": "Keeps current school budget rules.",
+   "how_it_got_here": "Referred by the Legislature (SCR 1032, 2026).",
+   "arguments_for": [
+    "Steers dollars to teachers and classrooms and trims administration (Goldwater Institute)."
+   ],
+   "arguments_against": [
+    "No new money and no guaranteed raises; may force cuts to counselors, special ed, safety and transport; Texas repealed a similar law (Save Our Schools, Arizona Education Association, ACLU).",
+    "Does not apply to charter schools."
+   ],
+   "fiscal": "No new state funding; penalties reduce Classroom Site Fund money.",
+   "sources": [
+    "sos_lang",
+    "fox_320",
+    "aclu_props"
+   ],
+   "details": {
+    "Scope": "Statewide (statute)",
+    "How it got here": "Referred by the Legislature (SCR 1032, 2026).",
+    "Fiscal": "No new state funding; penalties reduce Classroom Site Fund money."
+   },
+   "tags": [
+    "proposition",
+    "Statewide (statute)",
+    "education",
+    "budget"
+   ]
+  },
+  {
+   "id": "prop-421",
+   "type": "proposition",
+   "number": 421,
+   "title": "Prop 421: TEP electric franchise (City of Tucson)",
+   "scope": "City of Tucson",
+   "summary": "Grants Tucson Electric Power a 25-year franchise to use city rights-of-way; the franchise fee stays 2.25%.",
+   "body": "YES: Approves the 25-year non-exclusive franchise; a companion agreement adds at least $2 million a year (rising 2%) for the city's climate plan. NO: Rejects the franchise, as voters did with Prop 412 in 2023.",
+   "yes_means": "Approves the 25-year non-exclusive franchise; a companion agreement adds at least $2 million a year (rising 2%) for the city's climate plan.",
+   "no_means": "Rejects the franchise, as voters did with Prop 412 in 2023.",
+   "how_it_got_here": "City voter-approval measure.",
+   "arguments_for": [
+    "Speeds repairs without new permits, keeps rates unchanged, funds heat resilience (Southern Arizona Leadership Council, Chamber; many arguments paid by TEP for Tucson)."
+   ],
+   "arguments_against": [
+    "25 years is too long; residents wanted a shorter term, public power or renewable targets; concerns about TEP's 14% rate request and data center power plans (Tucson DSA, Public Power for Tucson)."
+   ],
+   "fiscal": "About $64 million to the city over 25 years; TEP says from corporate funds. Rates are set separately by the Corporation Commission.",
+   "sources": [
+    "luminaria_props"
+   ],
+   "details": {
+    "Scope": "City of Tucson",
+    "How it got here": "City voter-approval measure.",
+    "Fiscal": "About $64 million to the city over 25 years; TEP says from corporate funds. Rates are set separately by the Corporation Commission."
+   },
+   "tags": [
+    "proposition",
+    "City of Tucson",
+    "utilities",
+    "tucson"
+   ]
+  },
+  {
+   "id": "prop-422",
+   "type": "proposition",
+   "number": 422,
+   "title": "Prop 422: Reid Park Zoo sales tax renewal (City of Tucson)",
+   "scope": "City of Tucson",
+   "summary": "Extends the 0.1% city sales tax for the zoo for 20 more years (2028-2047).",
+   "body": "YES: Renews the tenth-cent tax for zoo capital projects, exhibits and operations. NO: Lets the tax end after 2027.",
+   "yes_means": "Renews the tenth-cent tax for zoo capital projects, exhibits and operations.",
+   "no_means": "Lets the tax end after 2027.",
+   "how_it_got_here": "Renewal of a tax voters approved in 2017.",
+   "arguments_for": [
+    "Keeps admission low ($12.75 vs. about $45 at Phoenix Zoo) and funds free programs (Zoo Society)."
+   ],
+   "arguments_against": [
+    "No arguments against were filed."
+   ],
+   "fiscal": "About $17-18 million a year for the zoo.",
+   "sources": [
+    "luminaria_props"
+   ],
+   "details": {
+    "Scope": "City of Tucson",
+    "How it got here": "Renewal of a tax voters approved in 2017.",
+    "Fiscal": "About $17-18 million a year for the zoo."
+   },
+   "tags": [
+    "proposition",
+    "City of Tucson",
+    "taxes",
+    "tucson"
+   ]
+  },
+  {
+   "id": "prop-425",
+   "type": "proposition",
+   "number": 425,
+   "title": "Prop 425: Pima County spending limit adjustment",
+   "scope": "Pima County",
+   "summary": "Permanently adds $70 million to the county's 1979-80 spending base, raising its state spending cap.",
+   "body": "YES: Raises the base, which lifts the county's limit from about $817 million to about $1.43 billion in FY2027-28. Does not change tax rates. NO: Keeps the current limit.",
+   "yes_means": "Raises the base, which lifts the county's limit from about $817 million to about $1.43 billion in FY2027-28. Does not change tax rates.",
+   "no_means": "Keeps the current limit.",
+   "how_it_got_here": "Referred by the Board of Supervisors (April 2026).",
+   "arguments_for": [
+    "The 46-year-old formula doesn't match today's costs; the county can't spend revenue it already has (Board Chair Jen Allen, Mayor Regina Romero, Pima County Democratic Party)."
+   ],
+   "arguments_against": [
+    "A permanent 75% jump in spending authority that could lead to higher taxes and fees (Pima County Republican Party, former Supervisor Ally Miller)."
+   ],
+   "fiscal": "County projects spending about $84 million above the current limit in FY2027-28.",
+   "sources": [
+    "luminaria_props"
+   ],
+   "details": {
+    "Scope": "Pima County",
+    "How it got here": "Referred by the Board of Supervisors (April 2026).",
+    "Fiscal": "County projects spending about $84 million above the current limit in FY2027-28."
+   },
+   "tags": [
+    "proposition",
+    "Pima County",
+    "county",
+    "budget"
+   ]
+  },
+  {
+   "id": "prop-427",
+   "type": "proposition",
+   "number": 427,
+   "title": "Prop 427: Pima JTED $250 million bond",
+   "scope": "Pima County Joint Technical Education District",
+   "summary": "Authorizes $250 million in bonds for career and technical education campuses.",
+   "body": "YES: Authorizes JTED to sell $250 million in general obligation bonds repaid by secondary property taxes. NO: Does not authorize the bonds.",
+   "yes_means": "Authorizes JTED to sell $250 million in general obligation bonds repaid by secondary property taxes.",
+   "no_means": "Does not authorize the bonds.",
+   "how_it_got_here": "Called by the JTED governing board.",
+   "arguments_for": [
+    "Demand for CTE has outgrown central campuses; would serve a 600-800 student waitlist (JTED)."
+   ],
+   "arguments_against": [
+    "About 75% goes to central campuses although satellite sites serve about 90% of students; Sunnyside and a dozen districts called the plan unfair (KOLD)."
+   ],
+   "fiscal": "About 14 cents per $100 of assessed value, roughly $41 a year on a $250,000 home.",
+   "sources": [
+    "kold_jted"
+   ],
+   "details": {
+    "Scope": "Pima County Joint Technical Education District",
+    "How it got here": "Called by the JTED governing board.",
+    "Fiscal": "About 14 cents per $100 of assessed value, roughly $41 a year on a $250,000 home."
+   },
+   "tags": [
+    "proposition",
+    "Pima County Joint Technical Education District",
+    "bond",
+    "education",
+    "property tax"
+   ]
+  },
+  {
+   "id": "prop-430",
+   "type": "proposition",
+   "number": 430,
+   "title": "Prop 430: Pima Community College $250 million bond",
+   "scope": "Pima Community College District",
+   "summary": "Authorizes $250 million in bonds for aging facilities, the college's first bond in over 30 years.",
+   "body": "YES: Authorizes PCC to sell $250 million in general obligation bonds for infrastructure, academic space, a public safety training center and refinancing. NO: Does not authorize the bonds.",
+   "yes_means": "Authorizes PCC to sell $250 million in general obligation bonds for infrastructure, academic space, a public safety training center and refinancing.",
+   "no_means": "Does not authorize the bonds.",
+   "how_it_got_here": "Referred unanimously by the PCC governing board.",
+   "arguments_for": [
+    "State capital funding ended in 2009 and operating aid in 2015; buildings are aging (Sen. Mark Kelly, Rep. Adelita Grijalva, chambers of commerce)."
+   ],
+   "arguments_against": [
+    "The college hasn't shown results from earlier spending; wants independent oversight first (one pamphlet argument)."
+   ],
+   "fiscal": "About $31 a year for a $250,000 home, rising to about $38; about $385 million total with interest.",
+   "sources": [
+    "luminaria_props"
+   ],
+   "details": {
+    "Scope": "Pima Community College District",
+    "How it got here": "Referred unanimously by the PCC governing board.",
+    "Fiscal": "About $31 a year for a $250,000 home, rising to about $38; about $385 million total with interest."
+   },
+   "tags": [
+    "proposition",
+    "Pima Community College District",
+    "bond",
+    "education",
+    "property tax"
+   ]
+  },
+  {
+   "id": "how-to-vote",
+   "type": "howto",
+   "title": "How and when to vote in Pima County",
+   "summary": "Mail your ballot by Tuesday, Oct 27, or drop it off by 7 p.m. on Tuesday, Nov 3.",
+   "body": "Fill each oval completely in black or dark blue pen. Fold the ballot, put it in the yellow return envelope, and sign by the large X; unsigned ballots are not counted. No stamp needed. Mail by Tuesday, Oct 27 (at least seven days before Election Day). Or drop it at any 24/7 drop box or early voting site through Monday, Nov 2, or at any Vote Center or drop box on Election Day until 7 p.m. Early in-person voting runs weekdays 8 a.m. to 5 p.m. through Friday, Oct 30 (until 7 p.m. that day); emergency voting is Saturday, Oct 31 and Monday, Nov 2. Election Day Vote Centers are open 6 a.m. to 7 p.m. and you must bring valid ID. Track your ballot on the Recorder's Voter Dashboard.",
+   "tags": [
+    "voting",
+    "dates",
+    "drop box",
+    "early voting"
+   ],
+   "details": {
+    "Mail by": "Tue, Oct 27",
+    "Early voting": "Weekdays 8 a.m.-5 p.m. through Oct 30 (7 p.m. Fri)",
+    "Emergency voting": "Sat Oct 31 & Mon Nov 2",
+    "Election Day": "Tue, Nov 3, 6 a.m.-7 p.m.",
+    "Recorder's office": "(520) 724-4330",
+    "Elections Department": "(520) 724-6830",
+    "Track your ballot": "https://recorder.pima.gov/VoterDashboard",
+    "Locations": "https://recorder.pima.gov/EarlyVotingSites"
+   },
+   "sources": [
+    "ballot_photo",
+    "pima_recorder",
+    "pima_sites",
+    "arizona_vote"
+   ]
+  },
+  {
+   "id": "judges",
+   "type": "judges",
+   "title": "Judges on your ballot (retention)",
+   "summary": "You vote YES or NO on keeping 14 judges. The state's review commission lists no judge as failing to meet standards in 2026.",
+   "body": "Arizona judges are appointed, then face yes/no retention votes. The Arizona Commission on Judicial Performance Review surveys lawyers, jurors and litigants and votes on whether each judge meets standards; its Sept 2, 2026 release identifies no 2026 judge as not meeting standards. Read each judge's full report before voting. Supreme Court Justice John Lopez IV, appointed in 2016, wrote the 2024 majority opinion that upheld enforcement of Arizona's 1864 abortion law; the Legislature then repealed the 1864 law, and voters approved Prop 139 that November.",
+   "tags": [
+    "judges",
+    "retention",
+    "courts"
+   ],
+   "details": {
+    "Supreme Court": "John R. Lopez IV (appointed 2016)",
+    "Court of Appeals, Div. 2": "Sean Brearcliffe (2017), Michael F. Kelly (2022), Jeffrey L. Sklar (2022)",
+    "Pima County Superior Court": "Goodwin (Div 2, 2020), Bostwick (Div 4, 2016), Liwski (Div 6, 2011), Bensley (Div 15, 2024), Woods (Div 17, 2011), Quigley (Div 19, 2012), San Angelo (Div 20, 2020), Kuhn (Div 21, 2016), Bergin (Div 22, 2011), Burnett (Div 25, 2023)",
+    "Full reports": "https://jpr.azcourts.gov/Judicial-Performance-Reports/2026-Judicial-Performance-Reports/2026-ALL-Reports"
+   },
+   "sources": [
+    "jpr_release",
+    "jpr_reports",
+    "wiki_judicial"
+   ]
+  },
+  {
+   "id": "mail-check",
+   "type": "factcheck",
+   "title": "Checking the campaign mail",
+   "summary": "We checked the claims on the mailers in this package against the sources they cite.",
+   "body": "Campaign mail is advocacy, not neutral information. Here is what holds up.",
+   "items": [
+    {
+     "claim": "Planned Parenthood: Rachel Keshel supports jailing physicians, pharmacists and patients over mailed medication abortion (cites HB 2364, 2026).",
+     "verdict": "Supported",
+     "note": "HB 2364, sponsored by Keshel, makes mailing abortion drugs a felony (class 4 for licensed providers and pharmacists) and knowingly receiving them by mail a class 1 misdemeanor.",
+     "source": "azleg_hb2364"
+    },
+    {
+     "claim": "Planned Parenthood: Christopher King supports banning abortion without rape or incest exceptions (cites his iVoterGuide answers).",
+     "verdict": "Partly checked",
+     "note": "Other coverage confirms he opposes elective abortion. We could not open his questionnaire to confirm the exceptions answer.",
+     "source": "substack_ld17"
+    },
+    {
+     "claim": "Planned Parenthood: John Winchester supports 'defunding' Planned Parenthood (cites a Freedom Voter Guide).",
+     "verdict": "Not verified",
+     "note": "We found no independent confirmation; it relies on a voter-guide answer.",
+     "source": ""
+    },
+    {
+     "claim": "AZ Democratic Party: 'Stop Chris King from playing politics with our safety' (cites HCR 2040).",
+     "verdict": "Misleading",
+     "note": "King is not a legislator and did not vote on HCR 2040, a Republican referral on public-employee unions that firefighter and police unions opposed. It is not on your 2026 ballot. The mailer ties him to it by party association.",
+     "source": "kjzz_hcr2040"
+    },
+    {
+     "claim": "AZ Democratic Party: Winchester and Keshel 'backed diverting $600 million from schools.'",
+     "verdict": "Not verified",
+     "note": "Winchester has no voting record; the mailer cites a resolution, a proposition number not on this ballot, and social media posts. We could not confirm the $600 million figure.",
+     "source": ""
+    },
+    {
+     "claim": "Will of the People (AZ Democratic Party): Prop 144 'could eliminate vote by mail entirely.'",
+     "verdict": "Overstated",
+     "note": "The text requires ID for mail voters; it does not end mail voting. Opponents argue its broad language could enable future limits.",
+     "source": "sos_lang"
+    },
+    {
+     "claim": "Will of the People: Prop 320 'does not send a dime of new funding' to schools.",
+     "verdict": "Accurate",
+     "note": "It adds no money and cuts Classroom Site Fund dollars for non-compliant districts. Whether it would cut teacher pay is a prediction.",
+     "source": "sos_lang"
+    },
+    {
+     "claim": "TEP for Tucson: if Prop 421 fails, more permits will be needed and repairs will take longer; 'zero new fees.'",
+     "verdict": "Partly accurate",
+     "note": "The franchise fee stays at 2.25% (already on bills). TEP's separate 14% average residential rate request is decided by the Corporation Commission, not Prop 421.",
+     "source": "luminaria_props"
+    },
+    {
+     "claim": "Center for Voter Information letters showing your voting history.",
+     "verdict": "Accurate",
+     "note": "Whether you voted is public record; who you voted for is secret. CVI is a 501(c)(4) nonprofit.",
+     "source": "ballot_photo"
+    }
+   ],
+   "tags": [
+    "mailers",
+    "fact check"
+   ],
+   "details": {},
+   "sources": [
+    "azleg_hb2364",
+    "kjzz_hcr2040",
+    "sos_lang",
+    "luminaria_props"
+   ]
+  },
+  {
+   "id": "method",
+   "type": "method",
+   "title": "How the match scores work",
+   "summary": "Scores compare your answers with each candidate's documented positions. No answers, no score.",
+   "body": "Each category holds one to three plain statements. A candidate gets a position on a statement only when a cited source documents it: agrees, disagrees, or unknown. You mark Agree, Not sure, or Disagree. Your match in a category is the share of statements where you and the candidate agree, counting only statements where both of you have a position, and the page shows how many statements the score rests on. Categories follow the order Arizona voters ranked issues in the Center for the Future of Arizona's 2026 Voters' Agenda survey (cost of living, water, immigration, education), followed by other issues on this ballot. This guide makes no endorsements. Debate statements from an opinion Substack are labeled where used.",
+   "tags": [
+    "method",
+    "scoring",
+    "nonpartisan"
+   ],
+   "details": {},
+   "sources": [
+    "cfa_agenda"
+   ]
+  }
+ ]
+}
