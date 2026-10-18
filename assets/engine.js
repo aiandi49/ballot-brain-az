@@ -84,7 +84,7 @@
   }
 
   function setText(id, t) { $(id).textContent = t; }
-  function pct(m) { return m.score == null ? "Not scored" : m.score + "%"; }
+  function pct(m) { return m.score == null ? "—" : m.score + "%"; }
 
   function renderSide() {
     var list = state.matches || [];
@@ -120,7 +120,7 @@
     function field(k, v) { var d = document.createElement("div"); var dt = document.createElement("dt"); dt.textContent = k; var dd = document.createElement("dd"); dd.textContent = v; d.appendChild(dt); d.appendChild(dd); dl.appendChild(d); }
     if (sel) {
       field("Selected", sel.title);
-      field("Fit score", sel.score == null ? "Not scored (no documented platform)" : sel.score + "%");
+      field("Fit score", sel.score == null ? "Not scored yet" : sel.score + "%");
       Object.keys(sel.details).forEach(function (k) { if (k.toLowerCase() !== "guide") field(k, sel.details[k]); });
       $("detail-link").href = "/guide/" + (sel.id ? "#entry-" + encodeURIComponent(sel.id) : "");
     } else {
