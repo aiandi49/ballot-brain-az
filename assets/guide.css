@@ -46,7 +46,7 @@ h1,h2,h3,h4{font-family:var(--font-head);line-height:1.15;color:var(--ink);font-
 .nav-links{display:flex;flex-wrap:wrap;justify-content:center;gap:.125rem .25rem}
 .nav-links a{color:var(--ink);text-decoration:none;font-size:.875rem;font-weight:600;padding:.375rem .5rem;border-radius:999px}
 .nav-links a:hover{background:var(--chip)}
-.prefs{display:flex;align-items:center;gap:.5rem}
+.prefs{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.5rem;max-width:100%}
 .size-group{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--paper)}
 .size-btn{appearance:none;border:0;background:transparent;color:var(--ink);min-width:2.25rem;height:2.25rem;cursor:pointer;font-family:var(--font-head);font-weight:600;display:grid;place-items:center}
 .size-btn[data-font-choice="sm"] span{font-size:.8rem}
@@ -231,4 +231,18 @@ fieldset.stmt legend{font-size:.9375rem;padding:0;margin-bottom:.375rem;font-wei
   .cands{grid-template-columns:repeat(2,minmax(0,1fr))}
   .race.wide .cands{grid-template-columns:repeat(4,minmax(0,1fr))}
   .prop-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+
+/* Phones and short landscape screens: let the wrapped nav scroll away instead of covering content */
+@media (max-width:699px),(max-height:500px){
+  .nav{position:relative}
+}
+/* Touch screens: comfortable tap targets (44px) */
+@media (pointer:coarse){
+  .nav-links a{min-height:2.75rem;display:inline-flex;align-items:center}
+  .size-btn{min-width:2.75rem;height:2.75rem}
+  .theme-btn{height:2.75rem}
+  .brand{min-height:2.75rem}
+  .btn,select{min-height:2.75rem}
+  .choices label{min-height:2.75rem}
 }
