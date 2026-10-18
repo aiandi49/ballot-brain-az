@@ -30,7 +30,7 @@
         try {
           var obj = JSON.parse(t.replace(/^MATCH:\s*/i, ""));
           if (obj && obj.title) {
-            var sc = Math.max(0, Math.min(100, Math.round(Number(obj.score) || 0)));
+            var raw = obj.score, sc = (raw === null || raw === undefined || raw === "" || isNaN(Number(raw))) ? null : Math.max(0, Math.min(100, Math.round(Number(raw))));
             var details = {};
             if (obj.details && typeof obj.details === "object") Object.keys(obj.details).forEach(function (k) { if (typeof obj.details[k] !== "object") details[String(k)] = String(obj.details[k]); });
             matches.push({ id: String(obj.id || ""), title: String(obj.title), score: sc, why: String(obj.why || ""), details: details });
@@ -38,10 +38,10 @@
         } catch (e) { /* malformed MATCH line: hidden anyway */ }
         return;
       }
-      if (/^next step:/i.test(t)) next = t.replace(/^next step:\s*/i, "");
+      if (/^next step:/i.test(t)) { next = t.replace(/^next step:\s*/i, ""); next = next.charAt(0).toUpperCase() + next.slice(1); }
       visible.push(line);
     });
-    return { text: visible.join("\n").replace(/\n{3,}/g, "\n\n").trim(), matches: matches.sort(function (a, b) { return b.score - a.score; }), next: next };
+    return { text: visible.join("\n").replace(/\n{3,}/g, "\n\n").trim(), matches: matches.sort(function (a, b) { return (b.score == null ? -1 : b.score) - (a.score == null ? -1 : a.score); }), next: next };
   }
 
   // ---------- rendering ----------
@@ -84,6 +84,7 @@
   }
 
   function setText(id, t) { $(id).textContent = t; }
+  function pct(m) { return m.score == null ? "Not scored" : m.score + "%"; }
 
   function renderSide() {
     var list = state.matches || [];
@@ -92,7 +93,7 @@
     if (top) {
       setText("top-kind", top.details.Race || (/^prop/i.test(top.title) ? "Proposition" : "Match"));
       setText("top-name", top.title);
-      setText("top-score", top.score + "%");
+      setText("top-score", pct(top));
       setText("top-why", top.why || "");
     } else {
       setText("top-kind", "Ready");
@@ -100,9 +101,9 @@
       setText("top-score", "—");
       setText("top-why", "Scores compare documented positions with what you tell the planner. They are not endorsements.");
     }
-    var circ = 100.53, frac = top ? top.score / 100 : 0;
+    var circ = 100.53, frac = top && top.score != null ? top.score / 100 : 0;
     $("gauge-fill").setAttribute("stroke-dasharray", (frac * circ).toFixed(2) + " " + circ);
-    setText("gauge-num", top ? top.score + "%" : "—");
+    setText("gauge-num", top && top.score != null ? top.score + "%" : "—");
     setText("rank-note", list.length ? "Ranked by fit with what you've shared. Tap one to see details." : "Ranked by fit once you ask about a race or share your priorities.");
     var ol = $("short-list"); ol.textContent = "";
     list.forEach(function (m) {
@@ -110,7 +111,7 @@
       var b = document.createElement("button"); b.type = "button";
       b.setAttribute("aria-current", sel && m.id === sel.id && m.title === sel.title ? "true" : "false");
       var nm = document.createElement("span"); nm.className = "name"; nm.textContent = m.title;
-      var sc = document.createElement("span"); sc.className = "score"; sc.textContent = m.score + "%";
+      var sc = document.createElement("span"); sc.className = "score"; sc.textContent = m.score == null ? "—" : m.score + "%";
       b.appendChild(nm); b.appendChild(sc);
       b.addEventListener("click", function () { state.selected = m.id; save(); renderSide(); });
       li.appendChild(b); ol.appendChild(li);
@@ -119,7 +120,7 @@
     function field(k, v) { var d = document.createElement("div"); var dt = document.createElement("dt"); dt.textContent = k; var dd = document.createElement("dd"); dd.textContent = v; d.appendChild(dt); d.appendChild(dd); dl.appendChild(d); }
     if (sel) {
       field("Selected", sel.title);
-      field("Fit score", sel.score + "%");
+      field("Fit score", sel.score == null ? "Not scored (no documented platform)" : sel.score + "%");
       Object.keys(sel.details).forEach(function (k) { if (k.toLowerCase() !== "guide") field(k, sel.details[k]); });
       $("detail-link").href = "/guide/" + (sel.id ? "#entry-" + encodeURIComponent(sel.id) : "");
     } else {
@@ -222,7 +223,7 @@
     L.push("RANKED OPTIONS");
     if (!state.matches.length) L.push("(none yet)");
     state.matches.forEach(function (m, i) {
-      L.push((i + 1) + ". " + m.title + " | fit " + m.score + "%");
+      L.push((i + 1) + ". " + m.title + " | fit " + (m.score == null ? "not scored" : m.score + "%"));
       if (m.why) L.push("   Why: " + m.why);
       Object.keys(m.details).forEach(function (k) { if (k.toLowerCase() !== "guide") L.push("   " + k + ": " + m.details[k]); });
     });
